@@ -1,0 +1,3982 @@
+[
+  {
+    "id": "01-introduction",
+    "duration": 16.92,
+    "words": [
+      {
+        "start": 0.118416,
+        "end": 0.210541,
+        "text": "In"
+      },
+      {
+        "start": 0.223666,
+        "end": 0.407874,
+        "text": "this"
+      },
+      {
+        "start": 0.421041,
+        "end": 0.894707,
+        "text": "video"
+      },
+      {
+        "start": 1.184208,
+        "end": 1.342083,
+        "text": "we'll"
+      },
+      {
+        "start": 1.35525,
+        "end": 1.763125,
+        "text": "design"
+      },
+      {
+        "start": 1.776333,
+        "end": 1.855291,
+        "text": "a"
+      },
+      {
+        "start": 1.868416,
+        "end": 2.276291,
+        "text": "digital"
+      },
+      {
+        "start": 2.289458,
+        "end": 2.723666,
+        "text": "circuit"
+      },
+      {
+        "start": 2.736833,
+        "end": 2.881583,
+        "text": "that"
+      },
+      {
+        "start": 2.89475,
+        "end": 3.460541,
+        "text": "converts"
+      },
+      {
+        "start": 3.486833,
+        "end": 3.539458,
+        "text": "a"
+      },
+      {
+        "start": 3.552625,
+        "end": 4.263166,
+        "text": "four-bit"
+      },
+      {
+        "start": 4.315791,
+        "end": 4.947374,
+        "text": "BCD"
+      },
+      {
+        "start": 4.960541,
+        "end": 5.381582,
+        "text": "input"
+      },
+      {
+        "start": 5.39475,
+        "end": 5.592125,
+        "text": "into"
+      },
+      {
+        "start": 5.60525,
+        "end": 5.7105,
+        "text": "the"
+      },
+      {
+        "start": 5.723666,
+        "end": 6.144707,
+        "text": "seven"
+      },
+      {
+        "start": 6.157875,
+        "end": 6.631541,
+        "text": "signals"
+      },
+      {
+        "start": 6.64475,
+        "end": 7.105291,
+        "text": "needed"
+      },
+      {
+        "start": 7.118416,
+        "end": 7.210541,
+        "text": "to"
+      },
+      {
+        "start": 7.223666,
+        "end": 7.894707,
+        "text": "display"
+      },
+      {
+        "start": 8.013166,
+        "end": 8.118416,
+        "text": "a"
+      },
+      {
+        "start": 8.131583,
+        "end": 8.578958,
+        "text": "decimal"
+      },
+      {
+        "start": 8.592125,
+        "end": 8.986875,
+        "text": "digit"
+      },
+      {
+        "start": 9.421041,
+        "end": 9.513166,
+        "text": "We'll"
+      },
+      {
+        "start": 9.526333,
+        "end": 9.828958,
+        "text": "start"
+      },
+      {
+        "start": 9.842125,
+        "end": 9.986875,
+        "text": "with"
+      },
+      {
+        "start": 10.0,
+        "end": 10.368416,
+        "text": "simple"
+      },
+      {
+        "start": 10.381583,
+        "end": 10.789458,
+        "text": "logic"
+      },
+      {
+        "start": 10.802625,
+        "end": 11.263166,
+        "text": "gates"
+      },
+      {
+        "start": 11.5,
+        "end": 12.092125,
+        "text": "simplify"
+      },
+      {
+        "start": 12.10525,
+        "end": 12.368416,
+        "text": "one"
+      },
+      {
+        "start": 12.381583,
+        "end": 12.855249,
+        "text": "output"
+      },
+      {
+        "start": 12.868416,
+        "end": 13.013166,
+        "text": "with"
+      },
+      {
+        "start": 13.026333,
+        "end": 13.078958,
+        "text": "a"
+      },
+      {
+        "start": 13.092125,
+        "end": 13.526333,
+        "text": "Karnaugh"
+      },
+      {
+        "start": 13.539458,
+        "end": 13.921041,
+        "text": "map"
+      },
+      {
+        "start": 14.25,
+        "end": 14.315791,
+        "text": "and"
+      },
+      {
+        "start": 14.328958,
+        "end": 14.513166,
+        "text": "then"
+      },
+      {
+        "start": 14.526333,
+        "end": 14.815791,
+        "text": "watch"
+      },
+      {
+        "start": 14.828958,
+        "end": 14.921083,
+        "text": "the"
+      },
+      {
+        "start": 14.934208,
+        "end": 15.407874,
+        "text": "complete"
+      },
+      {
+        "start": 15.473666,
+        "end": 15.986832,
+        "text": "decoder"
+      },
+      {
+        "start": 16.0,
+        "end": 16.539458,
+        "text": "operate"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "02-and",
+    "duration": 19.392,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.144708,
+        "text": "A"
+      },
+      {
+        "start": 0.157875,
+        "end": 0.552625,
+        "text": "logic"
+      },
+      {
+        "start": 0.565791,
+        "end": 0.973666,
+        "text": "signal"
+      },
+      {
+        "start": 0.986833,
+        "end": 1.197374,
+        "text": "has"
+      },
+      {
+        "start": 1.210541,
+        "end": 1.434207,
+        "text": "two"
+      },
+      {
+        "start": 1.447375,
+        "end": 1.986833,
+        "text": "states"
+      },
+      {
+        "start": 2.289458,
+        "end": 2.789458,
+        "text": "zero"
+      },
+      {
+        "start": 2.960541,
+        "end": 3.092124,
+        "text": "and"
+      },
+      {
+        "start": 3.10525,
+        "end": 3.421041,
+        "text": "one"
+      },
+      {
+        "start": 3.85525,
+        "end": 3.921041,
+        "text": "An"
+      },
+      {
+        "start": 3.934208,
+        "end": 4.052624,
+        "text": "AND"
+      },
+      {
+        "start": 4.065791,
+        "end": 4.302624,
+        "text": "gate"
+      },
+      {
+        "start": 4.315791,
+        "end": 4.881582,
+        "text": "produces"
+      },
+      {
+        "start": 4.89475,
+        "end": 5.236875,
+        "text": "one"
+      },
+      {
+        "start": 5.315791,
+        "end": 5.710541,
+        "text": "only"
+      },
+      {
+        "start": 5.723666,
+        "end": 5.934207,
+        "text": "when"
+      },
+      {
+        "start": 5.947375,
+        "end": 6.328958,
+        "text": "both"
+      },
+      {
+        "start": 6.342125,
+        "end": 6.7895,
+        "text": "inputs"
+      },
+      {
+        "start": 6.802625,
+        "end": 6.921041,
+        "text": "are"
+      },
+      {
+        "start": 6.934208,
+        "end": 7.197374,
+        "text": "one"
+      },
+      {
+        "start": 7.631583,
+        "end": 7.776333,
+        "text": "If"
+      },
+      {
+        "start": 7.789458,
+        "end": 8.052624,
+        "text": "either"
+      },
+      {
+        "start": 8.065791,
+        "end": 8.499999,
+        "text": "input"
+      },
+      {
+        "start": 8.565791,
+        "end": 8.723666,
+        "text": "is"
+      },
+      {
+        "start": 8.736833,
+        "end": 9.197374,
+        "text": "zero"
+      },
+      {
+        "start": 9.434208,
+        "end": 9.552624,
+        "text": "the"
+      },
+      {
+        "start": 9.565791,
+        "end": 10.013166,
+        "text": "output"
+      },
+      {
+        "start": 10.14475,
+        "end": 10.263166,
+        "text": "is"
+      },
+      {
+        "start": 10.276333,
+        "end": 10.723708,
+        "text": "zero"
+      },
+      {
+        "start": 11.171041,
+        "end": 11.302624,
+        "text": "We"
+      },
+      {
+        "start": 11.315791,
+        "end": 11.552624,
+        "text": "write"
+      },
+      {
+        "start": 11.565791,
+        "end": 11.828957,
+        "text": "this"
+      },
+      {
+        "start": 11.842125,
+        "end": 12.013166,
+        "text": "as"
+      },
+      {
+        "start": 12.092125,
+        "end": 12.342125,
+        "text": "X"
+      },
+      {
+        "start": 12.35525,
+        "end": 12.473666,
+        "text": "AND"
+      },
+      {
+        "start": 12.486833,
+        "end": 12.894708,
+        "text": "Y"
+      },
+      {
+        "start": 13.197375,
+        "end": 13.39475,
+        "text": "or"
+      },
+      {
+        "start": 13.407875,
+        "end": 13.592083,
+        "text": "X"
+      },
+      {
+        "start": 13.60525,
+        "end": 13.763125,
+        "text": "dot"
+      },
+      {
+        "start": 13.776333,
+        "end": 14.105291,
+        "text": "Y"
+      },
+      {
+        "start": 14.539458,
+        "end": 14.934208,
+        "text": "Later"
+      },
+      {
+        "start": 15.223666,
+        "end": 15.315791,
+        "text": "AND"
+      },
+      {
+        "start": 15.328958,
+        "end": 15.605291,
+        "text": "gates"
+      },
+      {
+        "start": 15.618416,
+        "end": 15.789457,
+        "text": "will"
+      },
+      {
+        "start": 15.802625,
+        "end": 16.407875,
+        "text": "recognize"
+      },
+      {
+        "start": 16.421041,
+        "end": 16.986832,
+        "text": "particular"
+      },
+      {
+        "start": 17.0,
+        "end": 17.776333,
+        "text": "combinations"
+      },
+      {
+        "start": 17.789458,
+        "end": 17.947333,
+        "text": "of"
+      },
+      {
+        "start": 17.960541,
+        "end": 18.065791,
+        "text": "our"
+      },
+      {
+        "start": 18.078958,
+        "end": 18.499999,
+        "text": "input"
+      },
+      {
+        "start": 18.513166,
+        "end": 18.999999,
+        "text": "bits"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "03-or",
+    "duration": 19.056,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.223666,
+        "text": "An"
+      },
+      {
+        "start": 0.236833,
+        "end": 0.394708,
+        "text": "OR"
+      },
+      {
+        "start": 0.407875,
+        "end": 0.644708,
+        "text": "gate"
+      },
+      {
+        "start": 0.657875,
+        "end": 1.184208,
+        "text": "produces"
+      },
+      {
+        "start": 1.197375,
+        "end": 1.5395,
+        "text": "one"
+      },
+      {
+        "start": 1.552625,
+        "end": 1.736833,
+        "text": "when"
+      },
+      {
+        "start": 1.868416,
+        "end": 2.157874,
+        "text": "either"
+      },
+      {
+        "start": 2.171041,
+        "end": 2.618416,
+        "text": "input"
+      },
+      {
+        "start": 2.631583,
+        "end": 2.776333,
+        "text": "is"
+      },
+      {
+        "start": 2.789458,
+        "end": 3.171041,
+        "text": "one"
+      },
+      {
+        "start": 3.592125,
+        "end": 4.118458,
+        "text": "including"
+      },
+      {
+        "start": 4.276333,
+        "end": 4.434208,
+        "text": "when"
+      },
+      {
+        "start": 4.447375,
+        "end": 4.815791,
+        "text": "both"
+      },
+      {
+        "start": 4.828958,
+        "end": 4.986833,
+        "text": "are"
+      },
+      {
+        "start": 5.0,
+        "end": 5.302625,
+        "text": "one"
+      },
+      {
+        "start": 5.736833,
+        "end": 6.026291,
+        "text": "Only"
+      },
+      {
+        "start": 6.039458,
+        "end": 6.328916,
+        "text": "two"
+      },
+      {
+        "start": 6.342125,
+        "end": 6.710541,
+        "text": "zero"
+      },
+      {
+        "start": 6.723666,
+        "end": 7.118416,
+        "text": "inputs"
+      },
+      {
+        "start": 7.131583,
+        "end": 7.657916,
+        "text": "produce"
+      },
+      {
+        "start": 7.75,
+        "end": 7.802625,
+        "text": "a"
+      },
+      {
+        "start": 7.815791,
+        "end": 8.263166,
+        "text": "zero"
+      },
+      {
+        "start": 8.276333,
+        "end": 8.815791,
+        "text": "output"
+      },
+      {
+        "start": 9.25,
+        "end": 9.381583,
+        "text": "We"
+      },
+      {
+        "start": 9.39475,
+        "end": 9.736875,
+        "text": "write"
+      },
+      {
+        "start": 9.868416,
+        "end": 9.986832,
+        "text": "OR"
+      },
+      {
+        "start": 10.0,
+        "end": 10.276333,
+        "text": "using"
+      },
+      {
+        "start": 10.289458,
+        "end": 10.342083,
+        "text": "a"
+      },
+      {
+        "start": 10.35525,
+        "end": 10.657875,
+        "text": "plus"
+      },
+      {
+        "start": 10.671041,
+        "end": 11.052624,
+        "text": "sign"
+      },
+      {
+        "start": 11.5,
+        "end": 11.697375,
+        "text": "This"
+      },
+      {
+        "start": 11.710541,
+        "end": 11.828957,
+        "text": "is"
+      },
+      {
+        "start": 11.842125,
+        "end": 12.236875,
+        "text": "Boolean"
+      },
+      {
+        "start": 12.25,
+        "end": 12.697375,
+        "text": "logic"
+      },
+      {
+        "start": 12.960541,
+        "end": 13.171082,
+        "text": "so"
+      },
+      {
+        "start": 13.184208,
+        "end": 13.592083,
+        "text": "one"
+      },
+      {
+        "start": 13.710541,
+        "end": 13.828957,
+        "text": "OR"
+      },
+      {
+        "start": 13.842125,
+        "end": 14.157916,
+        "text": "one"
+      },
+      {
+        "start": 14.223666,
+        "end": 14.315791,
+        "text": "is"
+      },
+      {
+        "start": 14.328958,
+        "end": 14.605291,
+        "text": "still"
+      },
+      {
+        "start": 14.618416,
+        "end": 14.881582,
+        "text": "one"
+      },
+      {
+        "start": 15.315791,
+        "end": 15.447374,
+        "text": "OR"
+      },
+      {
+        "start": 15.460541,
+        "end": 15.736874,
+        "text": "gates"
+      },
+      {
+        "start": 15.75,
+        "end": 15.89475,
+        "text": "will"
+      },
+      {
+        "start": 15.907875,
+        "end": 16.434208,
+        "text": "combine"
+      },
+      {
+        "start": 16.447375,
+        "end": 16.592125,
+        "text": "the"
+      },
+      {
+        "start": 16.671041,
+        "end": 17.013166,
+        "text": "different"
+      },
+      {
+        "start": 17.026333,
+        "end": 17.657916,
+        "text": "conditions"
+      },
+      {
+        "start": 17.671041,
+        "end": 17.855249,
+        "text": "that"
+      },
+      {
+        "start": 17.868416,
+        "end": 18.052624,
+        "text": "light"
+      },
+      {
+        "start": 18.065791,
+        "end": 18.105249,
+        "text": "a"
+      },
+      {
+        "start": 18.118416,
+        "end": 18.671041,
+        "text": "segment"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "04-not",
+    "duration": 14.016,
+    "words": [
+      {
+        "start": 0.092125,
+        "end": 0.131583,
+        "text": "A"
+      },
+      {
+        "start": 0.14475,
+        "end": 0.473708,
+        "text": "NOT"
+      },
+      {
+        "start": 0.486833,
+        "end": 0.776291,
+        "text": "gate"
+      },
+      {
+        "start": 0.789458,
+        "end": 1.368416,
+        "text": "reverses"
+      },
+      {
+        "start": 1.381583,
+        "end": 1.539458,
+        "text": "its"
+      },
+      {
+        "start": 1.552625,
+        "end": 2.013166,
+        "text": "input"
+      },
+      {
+        "start": 2.5,
+        "end": 2.921041,
+        "text": "zero"
+      },
+      {
+        "start": 2.934208,
+        "end": 3.381583,
+        "text": "becomes"
+      },
+      {
+        "start": 3.39475,
+        "end": 3.763166,
+        "text": "one"
+      },
+      {
+        "start": 4.197375,
+        "end": 4.328958,
+        "text": "and"
+      },
+      {
+        "start": 4.342125,
+        "end": 4.578958,
+        "text": "one"
+      },
+      {
+        "start": 4.592125,
+        "end": 5.026333,
+        "text": "becomes"
+      },
+      {
+        "start": 5.039458,
+        "end": 5.526291,
+        "text": "zero"
+      },
+      {
+        "start": 5.960541,
+        "end": 6.026332,
+        "text": "A"
+      },
+      {
+        "start": 6.039458,
+        "end": 6.276291,
+        "text": "bar"
+      },
+      {
+        "start": 6.289458,
+        "end": 6.513124,
+        "text": "over"
+      },
+      {
+        "start": 6.526333,
+        "end": 6.565791,
+        "text": "a"
+      },
+      {
+        "start": 6.578958,
+        "end": 7.131583,
+        "text": "variable"
+      },
+      {
+        "start": 7.35525,
+        "end": 7.60525,
+        "text": "means"
+      },
+      {
+        "start": 7.618416,
+        "end": 8.026291,
+        "text": "NOT"
+      },
+      {
+        "start": 8.460541,
+        "end": 8.723707,
+        "text": "Having"
+      },
+      {
+        "start": 8.736833,
+        "end": 9.039458,
+        "text": "both"
+      },
+      {
+        "start": 9.052625,
+        "end": 9.10525,
+        "text": "a"
+      },
+      {
+        "start": 9.118416,
+        "end": 9.631582,
+        "text": "signal"
+      },
+      {
+        "start": 9.89475,
+        "end": 9.973708,
+        "text": "and"
+      },
+      {
+        "start": 9.986833,
+        "end": 10.131583,
+        "text": "its"
+      },
+      {
+        "start": 10.14475,
+        "end": 10.618416,
+        "text": "inverse"
+      },
+      {
+        "start": 10.631583,
+        "end": 10.842124,
+        "text": "lets"
+      },
+      {
+        "start": 10.85525,
+        "end": 11.0,
+        "text": "us"
+      },
+      {
+        "start": 11.013166,
+        "end": 11.710541,
+        "text": "recognize"
+      },
+      {
+        "start": 11.85525,
+        "end": 12.131583,
+        "text": "either"
+      },
+      {
+        "start": 12.14475,
+        "end": 12.64475,
+        "text": "value"
+      },
+      {
+        "start": 12.657875,
+        "end": 12.763125,
+        "text": "of"
+      },
+      {
+        "start": 12.776333,
+        "end": 12.868458,
+        "text": "an"
+      },
+      {
+        "start": 12.881583,
+        "end": 13.302624,
+        "text": "input"
+      },
+      {
+        "start": 13.315791,
+        "end": 13.631582,
+        "text": "bit"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "05-interface",
+    "duration": 23.184,
+    "words": [
+      {
+        "start": 0.118416,
+        "end": 1.013166,
+        "text": "Binary-coded"
+      },
+      {
+        "start": 1.026333,
+        "end": 1.552666,
+        "text": "decimal"
+      },
+      {
+        "start": 1.828958,
+        "end": 1.947374,
+        "text": "or"
+      },
+      {
+        "start": 1.960541,
+        "end": 2.684207,
+        "text": "BCD"
+      },
+      {
+        "start": 3.10525,
+        "end": 3.618416,
+        "text": "represents"
+      },
+      {
+        "start": 3.631583,
+        "end": 4.013166,
+        "text": "one"
+      },
+      {
+        "start": 4.026333,
+        "end": 4.499999,
+        "text": "decimal"
+      },
+      {
+        "start": 4.513166,
+        "end": 4.934207,
+        "text": "digit"
+      },
+      {
+        "start": 5.052625,
+        "end": 5.2105,
+        "text": "with"
+      },
+      {
+        "start": 5.223666,
+        "end": 5.486832,
+        "text": "four"
+      },
+      {
+        "start": 5.5,
+        "end": 5.960541,
+        "text": "bits"
+      },
+      {
+        "start": 6.407875,
+        "end": 6.552625,
+        "text": "Their"
+      },
+      {
+        "start": 6.565791,
+        "end": 6.815791,
+        "text": "weights"
+      },
+      {
+        "start": 6.828958,
+        "end": 6.973708,
+        "text": "are"
+      },
+      {
+        "start": 7.157875,
+        "end": 7.434208,
+        "text": "eight"
+      },
+      {
+        "start": 7.697375,
+        "end": 8.197375,
+        "text": "four"
+      },
+      {
+        "start": 8.447375,
+        "end": 8.842125,
+        "text": "two"
+      },
+      {
+        "start": 9.052625,
+        "end": 9.184208,
+        "text": "and"
+      },
+      {
+        "start": 9.197375,
+        "end": 9.486833,
+        "text": "one"
+      },
+      {
+        "start": 9.921041,
+        "end": 10.986832,
+        "text": "Zero-one-zero-one"
+      },
+      {
+        "start": 11.078958,
+        "end": 11.631583,
+        "text": "therefore"
+      },
+      {
+        "start": 11.802625,
+        "end": 12.289458,
+        "text": "represents"
+      },
+      {
+        "start": 12.302625,
+        "end": 12.697375,
+        "text": "five"
+      },
+      {
+        "start": 13.131583,
+        "end": 13.315791,
+        "text": "Our"
+      },
+      {
+        "start": 13.328958,
+        "end": 13.684208,
+        "text": "seven"
+      },
+      {
+        "start": 13.697375,
+        "end": 14.10525,
+        "text": "outputs"
+      },
+      {
+        "start": 14.118416,
+        "end": 14.618416,
+        "text": "control"
+      },
+      {
+        "start": 14.631583,
+        "end": 15.184208,
+        "text": "segments"
+      },
+      {
+        "start": 15.276333,
+        "end": 15.328958,
+        "text": "a"
+      },
+      {
+        "start": 15.342125,
+        "end": 15.68425,
+        "text": "through"
+      },
+      {
+        "start": 15.697375,
+        "end": 16.052625,
+        "text": "g"
+      },
+      {
+        "start": 16.460541,
+        "end": 16.618416,
+        "text": "with"
+      },
+      {
+        "start": 16.631583,
+        "end": 16.947374,
+        "text": "one"
+      },
+      {
+        "start": 16.960541,
+        "end": 17.407916,
+        "text": "meaning"
+      },
+      {
+        "start": 17.552625,
+        "end": 18.302625,
+        "text": "illuminated"
+      },
+      {
+        "start": 18.736833,
+        "end": 18.921041,
+        "text": "Each"
+      },
+      {
+        "start": 18.934208,
+        "end": 19.355249,
+        "text": "segment"
+      },
+      {
+        "start": 19.513166,
+        "end": 19.710541,
+        "text": "has"
+      },
+      {
+        "start": 19.723666,
+        "end": 19.855249,
+        "text": "its"
+      },
+      {
+        "start": 19.947375,
+        "end": 20.236833,
+        "text": "own"
+      },
+      {
+        "start": 20.25,
+        "end": 20.710541,
+        "text": "Boolean"
+      },
+      {
+        "start": 20.723666,
+        "end": 21.263124,
+        "text": "function"
+      },
+      {
+        "start": 21.328958,
+        "end": 21.421083,
+        "text": "of"
+      },
+      {
+        "start": 21.434208,
+        "end": 21.513166,
+        "text": "the"
+      },
+      {
+        "start": 21.526333,
+        "end": 21.855291,
+        "text": "same"
+      },
+      {
+        "start": 21.868416,
+        "end": 22.171041,
+        "text": "four"
+      },
+      {
+        "start": 22.184208,
+        "end": 22.802624,
+        "text": "inputs"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "06-truth",
+    "duration": 22.152,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.276291,
+        "text": "Let's"
+      },
+      {
+        "start": 0.289458,
+        "end": 0.684208,
+        "text": "design"
+      },
+      {
+        "start": 0.697375,
+        "end": 0.776333,
+        "text": "the"
+      },
+      {
+        "start": 0.789458,
+        "end": 1.065791,
+        "text": "top"
+      },
+      {
+        "start": 1.078958,
+        "end": 1.539499,
+        "text": "segment"
+      },
+      {
+        "start": 1.736833,
+        "end": 1.894708,
+        "text": "a"
+      },
+      {
+        "start": 2.328958,
+        "end": 2.434208,
+        "text": "It"
+      },
+      {
+        "start": 2.447375,
+        "end": 2.697375,
+        "text": "lights"
+      },
+      {
+        "start": 2.710541,
+        "end": 2.868416,
+        "text": "for"
+      },
+      {
+        "start": 2.881583,
+        "end": 3.381583,
+        "text": "zero"
+      },
+      {
+        "start": 3.64475,
+        "end": 3.986875,
+        "text": "two"
+      },
+      {
+        "start": 4.223666,
+        "end": 4.684207,
+        "text": "three"
+      },
+      {
+        "start": 4.986833,
+        "end": 5.460499,
+        "text": "five"
+      },
+      {
+        "start": 5.85525,
+        "end": 6.394708,
+        "text": "six"
+      },
+      {
+        "start": 6.592125,
+        "end": 7.026333,
+        "text": "seven"
+      },
+      {
+        "start": 7.473666,
+        "end": 7.789457,
+        "text": "eight"
+      },
+      {
+        "start": 8.039458,
+        "end": 8.157874,
+        "text": "and"
+      },
+      {
+        "start": 8.171041,
+        "end": 8.565791,
+        "text": "nine"
+      },
+      {
+        "start": 9.0,
+        "end": 9.092125,
+        "text": "It"
+      },
+      {
+        "start": 9.10525,
+        "end": 9.447375,
+        "text": "stays"
+      },
+      {
+        "start": 9.460541,
+        "end": 9.671082,
+        "text": "off"
+      },
+      {
+        "start": 9.684208,
+        "end": 9.842083,
+        "text": "for"
+      },
+      {
+        "start": 9.85525,
+        "end": 10.026291,
+        "text": "one"
+      },
+      {
+        "start": 10.039458,
+        "end": 10.118416,
+        "text": "and"
+      },
+      {
+        "start": 10.131583,
+        "end": 10.552624,
+        "text": "four"
+      },
+      {
+        "start": 11.0,
+        "end": 11.197375,
+        "text": "These"
+      },
+      {
+        "start": 11.210541,
+        "end": 11.921082,
+        "text": "requirements"
+      },
+      {
+        "start": 11.934208,
+        "end": 12.302624,
+        "text": "form"
+      },
+      {
+        "start": 12.368416,
+        "end": 12.407874,
+        "text": "a"
+      },
+      {
+        "start": 12.421041,
+        "end": 12.776291,
+        "text": "truth"
+      },
+      {
+        "start": 12.789458,
+        "end": 13.184208,
+        "text": "table"
+      },
+      {
+        "start": 13.618416,
+        "end": 13.736832,
+        "text": "We"
+      },
+      {
+        "start": 13.75,
+        "end": 13.907875,
+        "text": "could"
+      },
+      {
+        "start": 13.921041,
+        "end": 14.157874,
+        "text": "build"
+      },
+      {
+        "start": 14.171041,
+        "end": 14.210499,
+        "text": "a"
+      },
+      {
+        "start": 14.223666,
+        "end": 14.644707,
+        "text": "separate"
+      },
+      {
+        "start": 14.657875,
+        "end": 15.157875,
+        "text": "detector"
+      },
+      {
+        "start": 15.171041,
+        "end": 15.381582,
+        "text": "for"
+      },
+      {
+        "start": 15.5,
+        "end": 15.802625,
+        "text": "every"
+      },
+      {
+        "start": 15.815791,
+        "end": 16.499999,
+        "text": "illuminated"
+      },
+      {
+        "start": 16.513166,
+        "end": 17.052624,
+        "text": "case"
+      },
+      {
+        "start": 17.342125,
+        "end": 17.473708,
+        "text": "but"
+      },
+      {
+        "start": 17.486833,
+        "end": 17.539458,
+        "text": "a"
+      },
+      {
+        "start": 17.552625,
+        "end": 17.986833,
+        "text": "Karnaugh"
+      },
+      {
+        "start": 18.0,
+        "end": 18.39475,
+        "text": "map"
+      },
+      {
+        "start": 18.631583,
+        "end": 18.921041,
+        "text": "helps"
+      },
+      {
+        "start": 18.934208,
+        "end": 19.052624,
+        "text": "us"
+      },
+      {
+        "start": 19.065791,
+        "end": 19.578957,
+        "text": "combine"
+      },
+      {
+        "start": 19.592125,
+        "end": 20.197375,
+        "text": "cases"
+      },
+      {
+        "start": 20.407875,
+        "end": 20.56575,
+        "text": "and"
+      },
+      {
+        "start": 20.578958,
+        "end": 21.157916,
+        "text": "simplify"
+      },
+      {
+        "start": 21.171041,
+        "end": 21.249999,
+        "text": "the"
+      },
+      {
+        "start": 21.263166,
+        "end": 21.749999,
+        "text": "circuit"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "07-map",
+    "duration": 20.448,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.171041,
+        "text": "A"
+      },
+      {
+        "start": 0.184208,
+        "end": 0.618416,
+        "text": "Karnaugh"
+      },
+      {
+        "start": 0.631583,
+        "end": 1.052624,
+        "text": "map"
+      },
+      {
+        "start": 1.157875,
+        "end": 1.85525,
+        "text": "rearranges"
+      },
+      {
+        "start": 1.868416,
+        "end": 1.960541,
+        "text": "the"
+      },
+      {
+        "start": 1.973666,
+        "end": 2.381541,
+        "text": "truth"
+      },
+      {
+        "start": 2.39475,
+        "end": 2.75,
+        "text": "table"
+      },
+      {
+        "start": 2.973666,
+        "end": 3.131541,
+        "text": "so"
+      },
+      {
+        "start": 3.14475,
+        "end": 3.631583,
+        "text": "neighboring"
+      },
+      {
+        "start": 3.64475,
+        "end": 3.960541,
+        "text": "cells"
+      },
+      {
+        "start": 3.973666,
+        "end": 4.421041,
+        "text": "differ"
+      },
+      {
+        "start": 4.60525,
+        "end": 4.697375,
+        "text": "in"
+      },
+      {
+        "start": 4.710541,
+        "end": 4.986874,
+        "text": "just"
+      },
+      {
+        "start": 5.0,
+        "end": 5.184208,
+        "text": "one"
+      },
+      {
+        "start": 5.197375,
+        "end": 5.5395,
+        "text": "bit"
+      },
+      {
+        "start": 5.973666,
+        "end": 6.289457,
+        "text": "Notice"
+      },
+      {
+        "start": 6.302625,
+        "end": 6.39475,
+        "text": "the"
+      },
+      {
+        "start": 6.407875,
+        "end": 6.802625,
+        "text": "order"
+      },
+      {
+        "start": 7.276333,
+        "end": 8.052666,
+        "text": "zero-zero"
+      },
+      {
+        "start": 8.342125,
+        "end": 9.0395,
+        "text": "zero-one"
+      },
+      {
+        "start": 9.381583,
+        "end": 10.013166,
+        "text": "one-one"
+      },
+      {
+        "start": 10.210541,
+        "end": 10.828957,
+        "text": "one-zero"
+      },
+      {
+        "start": 11.263166,
+        "end": 11.328957,
+        "text": "The"
+      },
+      {
+        "start": 11.342125,
+        "end": 11.631583,
+        "text": "rows"
+      },
+      {
+        "start": 11.64475,
+        "end": 12.14475,
+        "text": "describe"
+      },
+      {
+        "start": 12.157875,
+        "end": 12.289458,
+        "text": "the"
+      },
+      {
+        "start": 12.35525,
+        "end": 12.60525,
+        "text": "upper"
+      },
+      {
+        "start": 12.618416,
+        "end": 12.907874,
+        "text": "two"
+      },
+      {
+        "start": 12.921041,
+        "end": 13.368416,
+        "text": "input"
+      },
+      {
+        "start": 13.381583,
+        "end": 13.815791,
+        "text": "bits"
+      },
+      {
+        "start": 14.078958,
+        "end": 14.184208,
+        "text": "the"
+      },
+      {
+        "start": 14.197375,
+        "end": 14.631583,
+        "text": "columns"
+      },
+      {
+        "start": 14.64475,
+        "end": 15.14475,
+        "text": "describe"
+      },
+      {
+        "start": 15.157875,
+        "end": 15.25,
+        "text": "the"
+      },
+      {
+        "start": 15.263166,
+        "end": 15.539499,
+        "text": "lower"
+      },
+      {
+        "start": 15.552625,
+        "end": 15.89475,
+        "text": "two"
+      },
+      {
+        "start": 16.328958,
+        "end": 16.592124,
+        "text": "Every"
+      },
+      {
+        "start": 16.60525,
+        "end": 16.934208,
+        "text": "cell"
+      },
+      {
+        "start": 16.947375,
+        "end": 17.35525,
+        "text": "still"
+      },
+      {
+        "start": 17.368416,
+        "end": 17.934207,
+        "text": "represents"
+      },
+      {
+        "start": 17.947375,
+        "end": 18.64475,
+        "text": "exactly"
+      },
+      {
+        "start": 18.657875,
+        "end": 18.934208,
+        "text": "one"
+      },
+      {
+        "start": 18.947375,
+        "end": 19.368416,
+        "text": "input"
+      },
+      {
+        "start": 19.381583,
+        "end": 20.052624,
+        "text": "combination"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "08-grouping",
+    "duration": 23.856,
+    "words": [
+      {
+        "start": 0.118416,
+        "end": 0.249999,
+        "text": "We"
+      },
+      {
+        "start": 0.263166,
+        "end": 0.618416,
+        "text": "group"
+      },
+      {
+        "start": 0.631583,
+        "end": 0.947374,
+        "text": "ones"
+      },
+      {
+        "start": 0.960541,
+        "end": 1.171082,
+        "text": "into"
+      },
+      {
+        "start": 1.184208,
+        "end": 1.907874,
+        "text": "rectangles"
+      },
+      {
+        "start": 2.013166,
+        "end": 2.618416,
+        "text": "containing"
+      },
+      {
+        "start": 2.631583,
+        "end": 2.684208,
+        "text": "a"
+      },
+      {
+        "start": 2.697375,
+        "end": 3.578958,
+        "text": "power-of-two"
+      },
+      {
+        "start": 3.592125,
+        "end": 3.881583,
+        "text": "number"
+      },
+      {
+        "start": 3.89475,
+        "end": 3.973708,
+        "text": "of"
+      },
+      {
+        "start": 3.986833,
+        "end": 4.565791,
+        "text": "cells"
+      },
+      {
+        "start": 5.0,
+        "end": 5.289458,
+        "text": "Groups"
+      },
+      {
+        "start": 5.302625,
+        "end": 5.526291,
+        "text": "may"
+      },
+      {
+        "start": 5.539458,
+        "end": 6.210499,
+        "text": "overlap"
+      },
+      {
+        "start": 6.5,
+        "end": 6.64475,
+        "text": "and"
+      },
+      {
+        "start": 6.75,
+        "end": 7.210541,
+        "text": "opposite"
+      },
+      {
+        "start": 7.223666,
+        "end": 7.526291,
+        "text": "edges"
+      },
+      {
+        "start": 7.539458,
+        "end": 7.605249,
+        "text": "of"
+      },
+      {
+        "start": 7.618416,
+        "end": 7.684207,
+        "text": "the"
+      },
+      {
+        "start": 7.697375,
+        "end": 8.092125,
+        "text": "map"
+      },
+      {
+        "start": 8.210541,
+        "end": 8.302666,
+        "text": "are"
+      },
+      {
+        "start": 8.315791,
+        "end": 8.907916,
+        "text": "neighbors"
+      },
+      {
+        "start": 9.342125,
+        "end": 9.447375,
+        "text": "The"
+      },
+      {
+        "start": 9.460541,
+        "end": 9.684207,
+        "text": "X"
+      },
+      {
+        "start": 9.697375,
+        "end": 10.065791,
+        "text": "cells"
+      },
+      {
+        "start": 10.078958,
+        "end": 10.605291,
+        "text": "represent"
+      },
+      {
+        "start": 10.671041,
+        "end": 11.236832,
+        "text": "inputs"
+      },
+      {
+        "start": 11.302625,
+        "end": 11.684208,
+        "text": "ten"
+      },
+      {
+        "start": 11.763166,
+        "end": 11.986832,
+        "text": "through"
+      },
+      {
+        "start": 12.0,
+        "end": 12.723666,
+        "text": "fifteen"
+      },
+      {
+        "start": 13.065791,
+        "end": 13.210541,
+        "text": "which"
+      },
+      {
+        "start": 13.223666,
+        "end": 13.302624,
+        "text": "are"
+      },
+      {
+        "start": 13.315791,
+        "end": 13.644749,
+        "text": "not"
+      },
+      {
+        "start": 13.657875,
+        "end": 14.118416,
+        "text": "decimal"
+      },
+      {
+        "start": 14.131583,
+        "end": 14.710541,
+        "text": "BCD"
+      },
+      {
+        "start": 14.723666,
+        "end": 15.249999,
+        "text": "digits"
+      },
+      {
+        "start": 15.684208,
+        "end": 15.815791,
+        "text": "We"
+      },
+      {
+        "start": 15.828958,
+        "end": 15.999999,
+        "text": "may"
+      },
+      {
+        "start": 16.013166,
+        "end": 16.460541,
+        "text": "include"
+      },
+      {
+        "start": 16.473666,
+        "end": 16.710499,
+        "text": "these"
+      },
+      {
+        "start": 16.723666,
+        "end": 17.236832,
+        "text": "don't-care"
+      },
+      {
+        "start": 17.25,
+        "end": 17.657875,
+        "text": "cells"
+      },
+      {
+        "start": 17.671041,
+        "end": 17.789457,
+        "text": "when"
+      },
+      {
+        "start": 17.802625,
+        "end": 17.921041,
+        "text": "they"
+      },
+      {
+        "start": 17.934208,
+        "end": 18.171041,
+        "text": "help"
+      },
+      {
+        "start": 18.184208,
+        "end": 18.842083,
+        "text": "simplify"
+      },
+      {
+        "start": 18.85525,
+        "end": 18.947375,
+        "text": "the"
+      },
+      {
+        "start": 18.960541,
+        "end": 19.486874,
+        "text": "logic"
+      },
+      {
+        "start": 19.921041,
+        "end": 20.276291,
+        "text": "Later"
+      },
+      {
+        "start": 20.460541,
+        "end": 20.486874,
+        "text": "a"
+      },
+      {
+        "start": 20.5,
+        "end": 20.947375,
+        "text": "separate"
+      },
+      {
+        "start": 20.960541,
+        "end": 21.447374,
+        "text": "validity"
+      },
+      {
+        "start": 21.460541,
+        "end": 21.921082,
+        "text": "signal"
+      },
+      {
+        "start": 22.065791,
+        "end": 22.197374,
+        "text": "will"
+      },
+      {
+        "start": 22.210541,
+        "end": 22.618416,
+        "text": "blank"
+      },
+      {
+        "start": 22.631583,
+        "end": 22.855249,
+        "text": "those"
+      },
+      {
+        "start": 22.868416,
+        "end": 23.460541,
+        "text": "inputs"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "09-derive",
+    "duration": 26.664,
+    "words": [
+      {
+        "start": 0.118416,
+        "end": 0.394749,
+        "text": "Within"
+      },
+      {
+        "start": 0.407875,
+        "end": 0.60525,
+        "text": "each"
+      },
+      {
+        "start": 0.618416,
+        "end": 0.947374,
+        "text": "group"
+      },
+      {
+        "start": 1.236833,
+        "end": 1.486833,
+        "text": "keep"
+      },
+      {
+        "start": 1.565791,
+        "end": 1.828957,
+        "text": "only"
+      },
+      {
+        "start": 1.842125,
+        "end": 1.960541,
+        "text": "the"
+      },
+      {
+        "start": 1.973666,
+        "end": 2.302624,
+        "text": "bits"
+      },
+      {
+        "start": 2.315791,
+        "end": 2.473666,
+        "text": "that"
+      },
+      {
+        "start": 2.486833,
+        "end": 2.842083,
+        "text": "remain"
+      },
+      {
+        "start": 2.85525,
+        "end": 3.473666,
+        "text": "constant"
+      },
+      {
+        "start": 3.973666,
+        "end": 4.355249,
+        "text": "First"
+      },
+      {
+        "start": 4.592125,
+        "end": 4.828958,
+        "text": "these"
+      },
+      {
+        "start": 4.842125,
+        "end": 5.0,
+        "text": "eight"
+      },
+      {
+        "start": 5.013166,
+        "end": 5.539499,
+        "text": "cells"
+      },
+      {
+        "start": 5.710541,
+        "end": 5.921082,
+        "text": "all"
+      },
+      {
+        "start": 5.934208,
+        "end": 6.144749,
+        "text": "have"
+      },
+      {
+        "start": 6.25,
+        "end": 6.35525,
+        "text": "I"
+      },
+      {
+        "start": 6.368416,
+        "end": 6.736832,
+        "text": "one"
+      },
+      {
+        "start": 6.75,
+        "end": 7.052625,
+        "text": "equal"
+      },
+      {
+        "start": 7.065791,
+        "end": 7.157916,
+        "text": "to"
+      },
+      {
+        "start": 7.171041,
+        "end": 7.486832,
+        "text": "one"
+      },
+      {
+        "start": 7.881583,
+        "end": 7.986833,
+        "text": "so"
+      },
+      {
+        "start": 8.0,
+        "end": 8.184208,
+        "text": "their"
+      },
+      {
+        "start": 8.197375,
+        "end": 8.513166,
+        "text": "term"
+      },
+      {
+        "start": 8.631583,
+        "end": 8.723708,
+        "text": "is"
+      },
+      {
+        "start": 8.736833,
+        "end": 9.131583,
+        "text": "simply"
+      },
+      {
+        "start": 9.14475,
+        "end": 9.263166,
+        "text": "I"
+      },
+      {
+        "start": 9.276333,
+        "end": 9.592124,
+        "text": "one"
+      },
+      {
+        "start": 10.026333,
+        "end": 10.315791,
+        "text": "Another"
+      },
+      {
+        "start": 10.328958,
+        "end": 10.592124,
+        "text": "group"
+      },
+      {
+        "start": 10.684208,
+        "end": 10.894749,
+        "text": "has"
+      },
+      {
+        "start": 10.907875,
+        "end": 11.026291,
+        "text": "I"
+      },
+      {
+        "start": 11.039458,
+        "end": 11.486833,
+        "text": "three"
+      },
+      {
+        "start": 11.60525,
+        "end": 11.881583,
+        "text": "equal"
+      },
+      {
+        "start": 11.89475,
+        "end": 11.973708,
+        "text": "to"
+      },
+      {
+        "start": 11.986833,
+        "end": 12.276291,
+        "text": "one"
+      },
+      {
+        "start": 12.710541,
+        "end": 12.881582,
+        "text": "This"
+      },
+      {
+        "start": 12.89475,
+        "end": 13.381583,
+        "text": "four-cell"
+      },
+      {
+        "start": 13.39475,
+        "end": 13.710541,
+        "text": "group"
+      },
+      {
+        "start": 13.85525,
+        "end": 14.171041,
+        "text": "keeps"
+      },
+      {
+        "start": 14.184208,
+        "end": 14.289458,
+        "text": "I"
+      },
+      {
+        "start": 14.302625,
+        "end": 14.75,
+        "text": "two"
+      },
+      {
+        "start": 14.763166,
+        "end": 14.921041,
+        "text": "and"
+      },
+      {
+        "start": 14.934208,
+        "end": 15.065791,
+        "text": "I"
+      },
+      {
+        "start": 15.078958,
+        "end": 15.513166,
+        "text": "zero"
+      },
+      {
+        "start": 15.526333,
+        "end": 15.894749,
+        "text": "both"
+      },
+      {
+        "start": 16.026333,
+        "end": 16.289499,
+        "text": "equal"
+      },
+      {
+        "start": 16.302625,
+        "end": 16.368416,
+        "text": "to"
+      },
+      {
+        "start": 16.381583,
+        "end": 16.671041,
+        "text": "one"
+      },
+      {
+        "start": 17.171041,
+        "end": 17.618416,
+        "text": "Finally"
+      },
+      {
+        "start": 17.907875,
+        "end": 18.0,
+        "text": "the"
+      },
+      {
+        "start": 18.013166,
+        "end": 18.249999,
+        "text": "four"
+      },
+      {
+        "start": 18.263166,
+        "end": 18.657916,
+        "text": "corners"
+      },
+      {
+        "start": 18.671041,
+        "end": 18.921041,
+        "text": "wrap"
+      },
+      {
+        "start": 18.934208,
+        "end": 19.223666,
+        "text": "around"
+      },
+      {
+        "start": 19.236833,
+        "end": 19.302624,
+        "text": "the"
+      },
+      {
+        "start": 19.315791,
+        "end": 19.697374,
+        "text": "map"
+      },
+      {
+        "start": 19.973666,
+        "end": 20.065791,
+        "text": "and"
+      },
+      {
+        "start": 20.078958,
+        "end": 20.381583,
+        "text": "keep"
+      },
+      {
+        "start": 20.460541,
+        "end": 20.763166,
+        "text": "both"
+      },
+      {
+        "start": 20.776333,
+        "end": 20.842124,
+        "text": "of"
+      },
+      {
+        "start": 20.85525,
+        "end": 21.092083,
+        "text": "those"
+      },
+      {
+        "start": 21.10525,
+        "end": 21.434208,
+        "text": "bits"
+      },
+      {
+        "start": 21.447375,
+        "end": 21.552625,
+        "text": "at"
+      },
+      {
+        "start": 21.565791,
+        "end": 22.039457,
+        "text": "zero"
+      },
+      {
+        "start": 22.486833,
+        "end": 22.618416,
+        "text": "OR"
+      },
+      {
+        "start": 22.631583,
+        "end": 22.855249,
+        "text": "these"
+      },
+      {
+        "start": 22.868416,
+        "end": 23.157874,
+        "text": "four"
+      },
+      {
+        "start": 23.171041,
+        "end": 23.513166,
+        "text": "terms"
+      },
+      {
+        "start": 23.526333,
+        "end": 23.973708,
+        "text": "together"
+      },
+      {
+        "start": 23.986833,
+        "end": 24.131583,
+        "text": "to"
+      },
+      {
+        "start": 24.14475,
+        "end": 24.657916,
+        "text": "obtain"
+      },
+      {
+        "start": 24.789458,
+        "end": 24.921041,
+        "text": "our"
+      },
+      {
+        "start": 24.934208,
+        "end": 25.657874,
+        "text": "simplified"
+      },
+      {
+        "start": 25.671041,
+        "end": 26.263166,
+        "text": "expression"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "10-gates",
+    "duration": 19.92,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.289458,
+        "text": "Now"
+      },
+      {
+        "start": 0.302625,
+        "end": 0.907875,
+        "text": "translate"
+      },
+      {
+        "start": 0.921041,
+        "end": 1.013166,
+        "text": "the"
+      },
+      {
+        "start": 1.026333,
+        "end": 1.697374,
+        "text": "equation"
+      },
+      {
+        "start": 1.802625,
+        "end": 2.026291,
+        "text": "into"
+      },
+      {
+        "start": 2.039458,
+        "end": 2.644708,
+        "text": "hardware"
+      },
+      {
+        "start": 3.092125,
+        "end": 3.157916,
+        "text": "The"
+      },
+      {
+        "start": 3.171041,
+        "end": 3.394707,
+        "text": "two"
+      },
+      {
+        "start": 3.407875,
+        "end": 4.197333,
+        "text": "single-variable"
+      },
+      {
+        "start": 4.210541,
+        "end": 4.657916,
+        "text": "terms"
+      },
+      {
+        "start": 4.815791,
+        "end": 4.960541,
+        "text": "are"
+      },
+      {
+        "start": 4.973666,
+        "end": 5.394707,
+        "text": "direct"
+      },
+      {
+        "start": 5.407875,
+        "end": 6.039458,
+        "text": "signals"
+      },
+      {
+        "start": 6.473666,
+        "end": 6.592082,
+        "text": "The"
+      },
+      {
+        "start": 6.60525,
+        "end": 6.85525,
+        "text": "other"
+      },
+      {
+        "start": 6.868416,
+        "end": 7.157874,
+        "text": "two"
+      },
+      {
+        "start": 7.171041,
+        "end": 7.592082,
+        "text": "terms"
+      },
+      {
+        "start": 7.60525,
+        "end": 8.013125,
+        "text": "use"
+      },
+      {
+        "start": 8.026333,
+        "end": 8.144749,
+        "text": "AND"
+      },
+      {
+        "start": 8.157875,
+        "end": 8.7105,
+        "text": "gates"
+      },
+      {
+        "start": 8.934208,
+        "end": 9.092083,
+        "text": "with"
+      },
+      {
+        "start": 9.10525,
+        "end": 9.513125,
+        "text": "inverted"
+      },
+      {
+        "start": 9.526333,
+        "end": 9.999999,
+        "text": "inputs"
+      },
+      {
+        "start": 10.013166,
+        "end": 10.131582,
+        "text": "where"
+      },
+      {
+        "start": 10.14475,
+        "end": 10.5395,
+        "text": "needed"
+      },
+      {
+        "start": 10.973666,
+        "end": 11.105249,
+        "text": "An"
+      },
+      {
+        "start": 11.118416,
+        "end": 11.289457,
+        "text": "OR"
+      },
+      {
+        "start": 11.302625,
+        "end": 11.539458,
+        "text": "gate"
+      },
+      {
+        "start": 11.552625,
+        "end": 12.171041,
+        "text": "combines"
+      },
+      {
+        "start": 12.302625,
+        "end": 12.513166,
+        "text": "all"
+      },
+      {
+        "start": 12.526333,
+        "end": 12.789499,
+        "text": "four"
+      },
+      {
+        "start": 12.802625,
+        "end": 13.35525,
+        "text": "terms"
+      },
+      {
+        "start": 13.789458,
+        "end": 13.960499,
+        "text": "This"
+      },
+      {
+        "start": 13.973666,
+        "end": 14.486832,
+        "text": "structure"
+      },
+      {
+        "start": 14.5,
+        "end": 14.60525,
+        "text": "is"
+      },
+      {
+        "start": 14.618416,
+        "end": 14.894749,
+        "text": "called"
+      },
+      {
+        "start": 14.907875,
+        "end": 14.947333,
+        "text": "a"
+      },
+      {
+        "start": 14.960541,
+        "end": 15.197374,
+        "text": "sum"
+      },
+      {
+        "start": 15.210541,
+        "end": 15.289499,
+        "text": "of"
+      },
+      {
+        "start": 15.302625,
+        "end": 15.947375,
+        "text": "products"
+      },
+      {
+        "start": 16.342125,
+        "end": 16.473708,
+        "text": "AND"
+      },
+      {
+        "start": 16.486833,
+        "end": 17.171041,
+        "text": "operations"
+      },
+      {
+        "start": 17.184208,
+        "end": 17.434208,
+        "text": "form"
+      },
+      {
+        "start": 17.447375,
+        "end": 17.526333,
+        "text": "the"
+      },
+      {
+        "start": 17.539458,
+        "end": 18.144708,
+        "text": "products"
+      },
+      {
+        "start": 18.35525,
+        "end": 18.565791,
+        "text": "and"
+      },
+      {
+        "start": 18.671041,
+        "end": 18.802624,
+        "text": "OR"
+      },
+      {
+        "start": 18.815791,
+        "end": 19.315791,
+        "text": "combines"
+      },
+      {
+        "start": 19.328958,
+        "end": 19.526333,
+        "text": "them"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "11-pla",
+    "duration": 21.936,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.223666,
+        "text": "We"
+      },
+      {
+        "start": 0.236833,
+        "end": 0.605249,
+        "text": "repeat"
+      },
+      {
+        "start": 0.618416,
+        "end": 0.710541,
+        "text": "the"
+      },
+      {
+        "start": 0.723666,
+        "end": 1.052624,
+        "text": "same"
+      },
+      {
+        "start": 1.065791,
+        "end": 1.447374,
+        "text": "design"
+      },
+      {
+        "start": 1.460541,
+        "end": 2.013166,
+        "text": "process"
+      },
+      {
+        "start": 2.026333,
+        "end": 2.157916,
+        "text": "for"
+      },
+      {
+        "start": 2.171041,
+        "end": 2.289457,
+        "text": "the"
+      },
+      {
+        "start": 2.302625,
+        "end": 2.539458,
+        "text": "other"
+      },
+      {
+        "start": 2.552625,
+        "end": 2.828958,
+        "text": "six"
+      },
+      {
+        "start": 2.842125,
+        "end": 3.486875,
+        "text": "segments"
+      },
+      {
+        "start": 3.921041,
+        "end": 3.999999,
+        "text": "To"
+      },
+      {
+        "start": 4.013166,
+        "end": 4.249999,
+        "text": "keep"
+      },
+      {
+        "start": 4.263166,
+        "end": 4.355291,
+        "text": "the"
+      },
+      {
+        "start": 4.368416,
+        "end": 4.776291,
+        "text": "circuit"
+      },
+      {
+        "start": 4.789458,
+        "end": 5.473666,
+        "text": "organized"
+      },
+      {
+        "start": 5.736833,
+        "end": 5.907874,
+        "text": "we"
+      },
+      {
+        "start": 5.921041,
+        "end": 6.315791,
+        "text": "arrange"
+      },
+      {
+        "start": 6.328958,
+        "end": 6.447374,
+        "text": "it"
+      },
+      {
+        "start": 6.460541,
+        "end": 6.605291,
+        "text": "as"
+      },
+      {
+        "start": 6.618416,
+        "end": 6.671041,
+        "text": "a"
+      },
+      {
+        "start": 6.684208,
+        "end": 7.368416,
+        "text": "programmable"
+      },
+      {
+        "start": 7.381583,
+        "end": 7.763166,
+        "text": "logic"
+      },
+      {
+        "start": 7.776333,
+        "end": 8.197374,
+        "text": "array"
+      },
+      {
+        "start": 8.5,
+        "end": 8.618416,
+        "text": "or"
+      },
+      {
+        "start": 8.631583,
+        "end": 9.157916,
+        "text": "PLA"
+      },
+      {
+        "start": 9.592125,
+        "end": 9.815791,
+        "text": "The"
+      },
+      {
+        "start": 9.907875,
+        "end": 10.052625,
+        "text": "AND"
+      },
+      {
+        "start": 10.065791,
+        "end": 10.381582,
+        "text": "plane"
+      },
+      {
+        "start": 10.39475,
+        "end": 10.855291,
+        "text": "generates"
+      },
+      {
+        "start": 10.868416,
+        "end": 11.328957,
+        "text": "product"
+      },
+      {
+        "start": 11.342125,
+        "end": 11.75,
+        "text": "terms"
+      },
+      {
+        "start": 11.763166,
+        "end": 11.921041,
+        "text": "from"
+      },
+      {
+        "start": 11.934208,
+        "end": 12.302624,
+        "text": "shared"
+      },
+      {
+        "start": 12.315791,
+        "end": 12.684207,
+        "text": "input"
+      },
+      {
+        "start": 12.697375,
+        "end": 13.210541,
+        "text": "rails"
+      },
+      {
+        "start": 13.64475,
+        "end": 13.776333,
+        "text": "The"
+      },
+      {
+        "start": 13.842125,
+        "end": 13.986875,
+        "text": "OR"
+      },
+      {
+        "start": 14.0,
+        "end": 14.315791,
+        "text": "plane"
+      },
+      {
+        "start": 14.328958,
+        "end": 14.802624,
+        "text": "selects"
+      },
+      {
+        "start": 14.815791,
+        "end": 15.039457,
+        "text": "which"
+      },
+      {
+        "start": 15.052625,
+        "end": 15.39475,
+        "text": "terms"
+      },
+      {
+        "start": 15.407875,
+        "end": 16.06575,
+        "text": "contribute"
+      },
+      {
+        "start": 16.184208,
+        "end": 16.289458,
+        "text": "to"
+      },
+      {
+        "start": 16.302625,
+        "end": 16.526291,
+        "text": "each"
+      },
+      {
+        "start": 16.539458,
+        "end": 17.052624,
+        "text": "segment"
+      },
+      {
+        "start": 17.486833,
+        "end": 17.552624,
+        "text": "A"
+      },
+      {
+        "start": 17.565791,
+        "end": 17.894749,
+        "text": "term"
+      },
+      {
+        "start": 17.907875,
+        "end": 18.25,
+        "text": "needed"
+      },
+      {
+        "start": 18.263166,
+        "end": 18.381582,
+        "text": "by"
+      },
+      {
+        "start": 18.39475,
+        "end": 18.842125,
+        "text": "several"
+      },
+      {
+        "start": 18.85525,
+        "end": 19.434208,
+        "text": "segments"
+      },
+      {
+        "start": 19.552625,
+        "end": 19.697375,
+        "text": "is"
+      },
+      {
+        "start": 19.710541,
+        "end": 20.289499,
+        "text": "generated"
+      },
+      {
+        "start": 20.302625,
+        "end": 20.75,
+        "text": "once"
+      },
+      {
+        "start": 20.89475,
+        "end": 21.013166,
+        "text": "and"
+      },
+      {
+        "start": 21.026333,
+        "end": 21.552666,
+        "text": "shared"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "12-validity",
+    "duration": 22.992,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.565791,
+        "text": "Don\u2019t-care"
+      },
+      {
+        "start": 0.578958,
+        "end": 0.960541,
+        "text": "cells"
+      },
+      {
+        "start": 1.052625,
+        "end": 1.763166,
+        "text": "simplified"
+      },
+      {
+        "start": 1.776333,
+        "end": 1.842124,
+        "text": "the"
+      },
+      {
+        "start": 1.85525,
+        "end": 2.381583,
+        "text": "internal"
+      },
+      {
+        "start": 2.39475,
+        "end": 2.868416,
+        "text": "logic"
+      },
+      {
+        "start": 3.14475,
+        "end": 3.263166,
+        "text": "but"
+      },
+      {
+        "start": 3.276333,
+        "end": 3.381583,
+        "text": "they"
+      },
+      {
+        "start": 3.39475,
+        "end": 3.5395,
+        "text": "do"
+      },
+      {
+        "start": 3.552625,
+        "end": 3.828958,
+        "text": "not"
+      },
+      {
+        "start": 3.842125,
+        "end": 4.526333,
+        "text": "guarantee"
+      },
+      {
+        "start": 4.631583,
+        "end": 4.723708,
+        "text": "a"
+      },
+      {
+        "start": 4.736833,
+        "end": 5.131583,
+        "text": "blank"
+      },
+      {
+        "start": 5.14475,
+        "end": 5.7895,
+        "text": "display"
+      },
+      {
+        "start": 5.921041,
+        "end": 6.092082,
+        "text": "for"
+      },
+      {
+        "start": 6.10525,
+        "end": 6.578916,
+        "text": "invalid"
+      },
+      {
+        "start": 6.592125,
+        "end": 7.197375,
+        "text": "inputs"
+      },
+      {
+        "start": 7.631583,
+        "end": 7.828958,
+        "text": "We"
+      },
+      {
+        "start": 7.842125,
+        "end": 8.0,
+        "text": "add"
+      },
+      {
+        "start": 8.013166,
+        "end": 8.039499,
+        "text": "a"
+      },
+      {
+        "start": 8.052625,
+        "end": 8.513166,
+        "text": "validity"
+      },
+      {
+        "start": 8.526333,
+        "end": 8.999999,
+        "text": "signal"
+      },
+      {
+        "start": 9.434208,
+        "end": 9.499999,
+        "text": "A"
+      },
+      {
+        "start": 9.513166,
+        "end": 9.868416,
+        "text": "code"
+      },
+      {
+        "start": 9.881583,
+        "end": 10.013166,
+        "text": "is"
+      },
+      {
+        "start": 10.026333,
+        "end": 10.407916,
+        "text": "valid"
+      },
+      {
+        "start": 10.421041,
+        "end": 10.539457,
+        "text": "when"
+      },
+      {
+        "start": 10.552625,
+        "end": 10.64475,
+        "text": "the"
+      },
+      {
+        "start": 10.75,
+        "end": 11.052625,
+        "text": "eight\u2019s"
+      },
+      {
+        "start": 11.065791,
+        "end": 11.315791,
+        "text": "bit"
+      },
+      {
+        "start": 11.328958,
+        "end": 11.486833,
+        "text": "is"
+      },
+      {
+        "start": 11.5,
+        "end": 12.013166,
+        "text": "zero"
+      },
+      {
+        "start": 12.407875,
+        "end": 12.513125,
+        "text": "or"
+      },
+      {
+        "start": 12.526333,
+        "end": 12.657916,
+        "text": "when"
+      },
+      {
+        "start": 12.671041,
+        "end": 12.999999,
+        "text": "both"
+      },
+      {
+        "start": 13.013166,
+        "end": 13.105291,
+        "text": "the"
+      },
+      {
+        "start": 13.118416,
+        "end": 13.552624,
+        "text": "four\u2019s"
+      },
+      {
+        "start": 13.565791,
+        "end": 13.684207,
+        "text": "and"
+      },
+      {
+        "start": 13.697375,
+        "end": 14.026333,
+        "text": "two\u2019s"
+      },
+      {
+        "start": 14.039458,
+        "end": 14.368416,
+        "text": "bits"
+      },
+      {
+        "start": 14.473666,
+        "end": 14.657874,
+        "text": "are"
+      },
+      {
+        "start": 14.671041,
+        "end": 15.144707,
+        "text": "zero"
+      },
+      {
+        "start": 15.578958,
+        "end": 15.828958,
+        "text": "Every"
+      },
+      {
+        "start": 15.842125,
+        "end": 16.210541,
+        "text": "segment"
+      },
+      {
+        "start": 16.223666,
+        "end": 16.657874,
+        "text": "output"
+      },
+      {
+        "start": 16.907875,
+        "end": 17.078916,
+        "text": "is"
+      },
+      {
+        "start": 17.157875,
+        "end": 17.592083,
+        "text": "ANDed"
+      },
+      {
+        "start": 17.60525,
+        "end": 17.763125,
+        "text": "with"
+      },
+      {
+        "start": 17.776333,
+        "end": 17.947374,
+        "text": "this"
+      },
+      {
+        "start": 17.960541,
+        "end": 18.394749,
+        "text": "signal"
+      },
+      {
+        "start": 18.828958,
+        "end": 19.263166,
+        "text": "Inputs"
+      },
+      {
+        "start": 19.276333,
+        "end": 19.605291,
+        "text": "ten"
+      },
+      {
+        "start": 19.618416,
+        "end": 19.828957,
+        "text": "through"
+      },
+      {
+        "start": 19.842125,
+        "end": 20.381583,
+        "text": "fifteen"
+      },
+      {
+        "start": 20.39475,
+        "end": 20.89475,
+        "text": "therefore"
+      },
+      {
+        "start": 21.052625,
+        "end": 21.35525,
+        "text": "turn"
+      },
+      {
+        "start": 21.526333,
+        "end": 21.815791,
+        "text": "every"
+      },
+      {
+        "start": 21.828958,
+        "end": 22.223708,
+        "text": "segment"
+      },
+      {
+        "start": 22.236833,
+        "end": 22.592083,
+        "text": "off"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "13-trace",
+    "duration": 24.528,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.276291,
+        "text": "Let\u2019s"
+      },
+      {
+        "start": 0.289458,
+        "end": 0.552624,
+        "text": "follow"
+      },
+      {
+        "start": 0.565791,
+        "end": 0.697374,
+        "text": "the"
+      },
+      {
+        "start": 0.710541,
+        "end": 1.157916,
+        "text": "input"
+      },
+      {
+        "start": 1.171041,
+        "end": 2.407874,
+        "text": "zero-one-zero-one"
+      },
+      {
+        "start": 2.710541,
+        "end": 3.105291,
+        "text": "decimal"
+      },
+      {
+        "start": 3.118416,
+        "end": 3.578957,
+        "text": "five"
+      },
+      {
+        "start": 4.013166,
+        "end": 4.105291,
+        "text": "The"
+      },
+      {
+        "start": 4.118416,
+        "end": 4.513166,
+        "text": "input"
+      },
+      {
+        "start": 4.526333,
+        "end": 4.842124,
+        "text": "rails"
+      },
+      {
+        "start": 4.85525,
+        "end": 5.263125,
+        "text": "provide"
+      },
+      {
+        "start": 5.39475,
+        "end": 5.618416,
+        "text": "each"
+      },
+      {
+        "start": 5.631583,
+        "end": 5.947374,
+        "text": "bit"
+      },
+      {
+        "start": 6.223666,
+        "end": 6.302624,
+        "text": "and"
+      },
+      {
+        "start": 6.315791,
+        "end": 6.447374,
+        "text": "its"
+      },
+      {
+        "start": 6.460541,
+        "end": 7.092124,
+        "text": "inverse"
+      },
+      {
+        "start": 7.526333,
+        "end": 7.855291,
+        "text": "The"
+      },
+      {
+        "start": 7.934208,
+        "end": 8.092083,
+        "text": "AND"
+      },
+      {
+        "start": 8.10525,
+        "end": 8.434208,
+        "text": "plane"
+      },
+      {
+        "start": 8.447375,
+        "end": 9.236833,
+        "text": "evaluates"
+      },
+      {
+        "start": 9.407875,
+        "end": 9.684208,
+        "text": "every"
+      },
+      {
+        "start": 9.697375,
+        "end": 10.131583,
+        "text": "product"
+      },
+      {
+        "start": 10.14475,
+        "end": 10.460541,
+        "text": "term"
+      },
+      {
+        "start": 10.89475,
+        "end": 10.947375,
+        "text": "and"
+      },
+      {
+        "start": 10.960541,
+        "end": 11.052666,
+        "text": "the"
+      },
+      {
+        "start": 11.065791,
+        "end": 11.276332,
+        "text": "OR"
+      },
+      {
+        "start": 11.289458,
+        "end": 11.657874,
+        "text": "plane"
+      },
+      {
+        "start": 11.671041,
+        "end": 12.249999,
+        "text": "combines"
+      },
+      {
+        "start": 12.263166,
+        "end": 12.368416,
+        "text": "the"
+      },
+      {
+        "start": 12.381583,
+        "end": 12.842124,
+        "text": "selected"
+      },
+      {
+        "start": 12.85525,
+        "end": 13.473666,
+        "text": "results"
+      },
+      {
+        "start": 13.907875,
+        "end": 14.421041,
+        "text": "Outputs"
+      },
+      {
+        "start": 14.565791,
+        "end": 14.868416,
+        "text": "a"
+      },
+      {
+        "start": 15.118416,
+        "end": 15.618416,
+        "text": "c"
+      },
+      {
+        "start": 15.934208,
+        "end": 16.315791,
+        "text": "d"
+      },
+      {
+        "start": 16.75,
+        "end": 17.184208,
+        "text": "f"
+      },
+      {
+        "start": 17.460541,
+        "end": 17.552666,
+        "text": "and"
+      },
+      {
+        "start": 17.565791,
+        "end": 17.868416,
+        "text": "g"
+      },
+      {
+        "start": 17.881583,
+        "end": 18.302624,
+        "text": "become"
+      },
+      {
+        "start": 18.315791,
+        "end": 18.578957,
+        "text": "one"
+      },
+      {
+        "start": 19.013166,
+        "end": 19.144749,
+        "text": "The"
+      },
+      {
+        "start": 19.157875,
+        "end": 19.60525,
+        "text": "input"
+      },
+      {
+        "start": 19.684208,
+        "end": 19.815791,
+        "text": "is"
+      },
+      {
+        "start": 19.828958,
+        "end": 20.289499,
+        "text": "valid"
+      },
+      {
+        "start": 20.671041,
+        "end": 20.789457,
+        "text": "so"
+      },
+      {
+        "start": 20.802625,
+        "end": 21.026291,
+        "text": "these"
+      },
+      {
+        "start": 21.039458,
+        "end": 21.328916,
+        "text": "five"
+      },
+      {
+        "start": 21.342125,
+        "end": 21.842125,
+        "text": "segments"
+      },
+      {
+        "start": 21.85525,
+        "end": 22.578916,
+        "text": "illuminate"
+      },
+      {
+        "start": 22.684208,
+        "end": 22.763166,
+        "text": "and"
+      },
+      {
+        "start": 22.776333,
+        "end": 23.197374,
+        "text": "form"
+      },
+      {
+        "start": 23.210541,
+        "end": 23.315791,
+        "text": "the"
+      },
+      {
+        "start": 23.328958,
+        "end": 23.618416,
+        "text": "digit"
+      },
+      {
+        "start": 23.631583,
+        "end": 24.131583,
+        "text": "five"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "14-simulation",
+    "duration": 20.04,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.25,
+        "text": "Now"
+      },
+      {
+        "start": 0.263166,
+        "end": 0.368416,
+        "text": "we"
+      },
+      {
+        "start": 0.381583,
+        "end": 0.513166,
+        "text": "can"
+      },
+      {
+        "start": 0.526333,
+        "end": 1.184208,
+        "text": "exercise"
+      },
+      {
+        "start": 1.197375,
+        "end": 1.2895,
+        "text": "the"
+      },
+      {
+        "start": 1.302625,
+        "end": 1.789458,
+        "text": "complete"
+      },
+      {
+        "start": 1.802625,
+        "end": 2.421041,
+        "text": "decoder"
+      },
+      {
+        "start": 2.85525,
+        "end": 3.0,
+        "text": "As"
+      },
+      {
+        "start": 3.013166,
+        "end": 3.105291,
+        "text": "the"
+      },
+      {
+        "start": 3.118416,
+        "end": 3.552624,
+        "text": "input"
+      },
+      {
+        "start": 3.565791,
+        "end": 3.934207,
+        "text": "counts"
+      },
+      {
+        "start": 3.947375,
+        "end": 4.171041,
+        "text": "from"
+      },
+      {
+        "start": 4.184208,
+        "end": 4.644749,
+        "text": "zero"
+      },
+      {
+        "start": 4.657875,
+        "end": 4.81575,
+        "text": "to"
+      },
+      {
+        "start": 4.828958,
+        "end": 5.302624,
+        "text": "nine"
+      },
+      {
+        "start": 5.631583,
+        "end": 5.736833,
+        "text": "the"
+      },
+      {
+        "start": 5.75,
+        "end": 6.078958,
+        "text": "same"
+      },
+      {
+        "start": 6.092125,
+        "end": 6.513166,
+        "text": "fixed"
+      },
+      {
+        "start": 6.526333,
+        "end": 6.921083,
+        "text": "logic"
+      },
+      {
+        "start": 6.934208,
+        "end": 7.513166,
+        "text": "produces"
+      },
+      {
+        "start": 7.657875,
+        "end": 7.907875,
+        "text": "each"
+      },
+      {
+        "start": 7.921041,
+        "end": 8.302624,
+        "text": "digit\u2019s"
+      },
+      {
+        "start": 8.315791,
+        "end": 8.671041,
+        "text": "segment"
+      },
+      {
+        "start": 8.684208,
+        "end": 9.026333,
+        "text": "pattern"
+      },
+      {
+        "start": 9.460541,
+        "end": 9.592124,
+        "text": "No"
+      },
+      {
+        "start": 9.60525,
+        "end": 9.947375,
+        "text": "circuit"
+      },
+      {
+        "start": 9.960541,
+        "end": 10.328957,
+        "text": "changes"
+      },
+      {
+        "start": 10.342125,
+        "end": 10.421083,
+        "text": "are"
+      },
+      {
+        "start": 10.434208,
+        "end": 10.815791,
+        "text": "needed"
+      },
+      {
+        "start": 11.25,
+        "end": 11.342125,
+        "text": "When"
+      },
+      {
+        "start": 11.35525,
+        "end": 11.4605,
+        "text": "the"
+      },
+      {
+        "start": 11.473666,
+        "end": 11.934207,
+        "text": "input"
+      },
+      {
+        "start": 11.947375,
+        "end": 12.368416,
+        "text": "reaches"
+      },
+      {
+        "start": 12.381583,
+        "end": 12.763166,
+        "text": "ten"
+      },
+      {
+        "start": 13.157875,
+        "end": 13.4605,
+        "text": "VALID"
+      },
+      {
+        "start": 13.473666,
+        "end": 13.907874,
+        "text": "becomes"
+      },
+      {
+        "start": 13.921041,
+        "end": 14.394707,
+        "text": "zero"
+      },
+      {
+        "start": 14.631583,
+        "end": 14.723708,
+        "text": "and"
+      },
+      {
+        "start": 14.736833,
+        "end": 14.815791,
+        "text": "the"
+      },
+      {
+        "start": 14.828958,
+        "end": 15.394749,
+        "text": "display"
+      },
+      {
+        "start": 15.407875,
+        "end": 15.684208,
+        "text": "goes"
+      },
+      {
+        "start": 15.697375,
+        "end": 16.236833,
+        "text": "blank"
+      },
+      {
+        "start": 16.684208,
+        "end": 16.736833,
+        "text": "The"
+      },
+      {
+        "start": 16.75,
+        "end": 17.223666,
+        "text": "remaining"
+      },
+      {
+        "start": 17.236833,
+        "end": 17.749999,
+        "text": "invalid"
+      },
+      {
+        "start": 17.763166,
+        "end": 18.144749,
+        "text": "codes"
+      },
+      {
+        "start": 18.157875,
+        "end": 18.328916,
+        "text": "are"
+      },
+      {
+        "start": 18.342125,
+        "end": 18.842125,
+        "text": "blanked"
+      },
+      {
+        "start": 18.85525,
+        "end": 18.921041,
+        "text": "in"
+      },
+      {
+        "start": 18.934208,
+        "end": 18.999999,
+        "text": "the"
+      },
+      {
+        "start": 19.013166,
+        "end": 19.315791,
+        "text": "same"
+      },
+      {
+        "start": 19.328958,
+        "end": 19.644749,
+        "text": "way"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  },
+  {
+    "id": "15-recap",
+    "duration": 18.264,
+    "words": [
+      {
+        "start": 0.10525,
+        "end": 0.394708,
+        "text": "Start"
+      },
+      {
+        "start": 0.407875,
+        "end": 0.526291,
+        "text": "by"
+      },
+      {
+        "start": 0.539458,
+        "end": 1.131583,
+        "text": "deciding"
+      },
+      {
+        "start": 1.25,
+        "end": 1.39475,
+        "text": "when"
+      },
+      {
+        "start": 1.526333,
+        "end": 1.697374,
+        "text": "each"
+      },
+      {
+        "start": 1.710541,
+        "end": 2.236874,
+        "text": "segment"
+      },
+      {
+        "start": 2.25,
+        "end": 2.552625,
+        "text": "must"
+      },
+      {
+        "start": 2.565791,
+        "end": 2.921041,
+        "text": "light"
+      },
+      {
+        "start": 3.35525,
+        "end": 3.539458,
+        "text": "Write"
+      },
+      {
+        "start": 3.552625,
+        "end": 3.697375,
+        "text": "its"
+      },
+      {
+        "start": 3.710541,
+        "end": 4.078957,
+        "text": "truth"
+      },
+      {
+        "start": 4.092125,
+        "end": 4.460541,
+        "text": "table"
+      },
+      {
+        "start": 4.763166,
+        "end": 5.368416,
+        "text": "simplify"
+      },
+      {
+        "start": 5.381583,
+        "end": 5.473708,
+        "text": "it"
+      },
+      {
+        "start": 5.486833,
+        "end": 5.618416,
+        "text": "with"
+      },
+      {
+        "start": 5.631583,
+        "end": 5.684208,
+        "text": "a"
+      },
+      {
+        "start": 5.697375,
+        "end": 6.131583,
+        "text": "Karnaugh"
+      },
+      {
+        "start": 6.14475,
+        "end": 6.5395,
+        "text": "map"
+      },
+      {
+        "start": 6.842125,
+        "end": 6.921083,
+        "text": "and"
+      },
+      {
+        "start": 6.934208,
+        "end": 7.394749,
+        "text": "implement"
+      },
+      {
+        "start": 7.407875,
+        "end": 7.486833,
+        "text": "the"
+      },
+      {
+        "start": 7.5,
+        "end": 7.89475,
+        "text": "result"
+      },
+      {
+        "start": 7.907875,
+        "end": 8.092083,
+        "text": "with"
+      },
+      {
+        "start": 8.223666,
+        "end": 8.565791,
+        "text": "AND"
+      },
+      {
+        "start": 9.0,
+        "end": 9.328958,
+        "text": "OR"
+      },
+      {
+        "start": 9.552625,
+        "end": 9.671041,
+        "text": "and"
+      },
+      {
+        "start": 9.684208,
+        "end": 10.078958,
+        "text": "NOT"
+      },
+      {
+        "start": 10.513166,
+        "end": 11.039499,
+        "text": "Organize"
+      },
+      {
+        "start": 11.052625,
+        "end": 11.447375,
+        "text": "shared"
+      },
+      {
+        "start": 11.460541,
+        "end": 11.881582,
+        "text": "terms"
+      },
+      {
+        "start": 11.960541,
+        "end": 12.302666,
+        "text": "into"
+      },
+      {
+        "start": 12.315791,
+        "end": 12.407916,
+        "text": "a"
+      },
+      {
+        "start": 12.421041,
+        "end": 13.078916,
+        "text": "PLA"
+      },
+      {
+        "start": 13.473666,
+        "end": 13.973666,
+        "text": "validate"
+      },
+      {
+        "start": 14.131583,
+        "end": 14.434208,
+        "text": "every"
+      },
+      {
+        "start": 14.447375,
+        "end": 14.907916,
+        "text": "input"
+      },
+      {
+        "start": 15.25,
+        "end": 15.302625,
+        "text": "and"
+      },
+      {
+        "start": 15.315791,
+        "end": 15.394749,
+        "text": "the"
+      },
+      {
+        "start": 15.407875,
+        "end": 15.881541,
+        "text": "complete"
+      },
+      {
+        "start": 15.89475,
+        "end": 16.710541,
+        "text": "seven-segment"
+      },
+      {
+        "start": 16.763166,
+        "end": 17.263166,
+        "text": "decoder"
+      },
+      {
+        "start": 17.276333,
+        "end": 17.868458,
+        "text": "follows"
+      }
+    ],
+    "voice": "en-US-AndrewNeural",
+    "rate": "-5%"
+  }
+]

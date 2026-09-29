@@ -1,0 +1,14 @@
+{
+  "duration": 29,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#scene-7-canvas",
+      "bySec": 0.6
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#scene-7-canvas"
+    }
+  ]
+}

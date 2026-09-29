@@ -1,0 +1,1 @@
+An OR gate produces one when either input is one, including when both are one. Only two zero inputs produce a zero output. We write OR using a plus sign. This is Boolean logic, so one OR one is still one. OR gates will combine the different conditions that light a segment.

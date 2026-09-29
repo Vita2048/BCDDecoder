@@ -1,0 +1,1 @@
+Let’s follow the input zero-one-zero-one: decimal five. The input rails provide each bit and its inverse. The AND plane evaluates every product term, and the OR plane combines the selected results. Outputs a, c, d, f, and g become one. The input is valid, so these five segments illuminate and form the digit five.

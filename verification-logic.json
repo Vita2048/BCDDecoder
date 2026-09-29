@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "inputs": [
+    {
+      "input": 0,
+      "bits": "0000",
+      "output": "1111110",
+      "valid": 1
+    },
+    {
+      "input": 1,
+      "bits": "0001",
+      "output": "0110000",
+      "valid": 1
+    },
+    {
+      "input": 2,
+      "bits": "0010",
+      "output": "1101101",
+      "valid": 1
+    },
+    {
+      "input": 3,
+      "bits": "0011",
+      "output": "1111001",
+      "valid": 1
+    },
+    {
+      "input": 4,
+      "bits": "0100",
+      "output": "0110011",
+      "valid": 1
+    },
+    {
+      "input": 5,
+      "bits": "0101",
+      "output": "1011011",
+      "valid": 1
+    },
+    {
+      "input": 6,
+      "bits": "0110",
+      "output": "1011111",
+      "valid": 1
+    },
+    {
+      "input": 7,
+      "bits": "0111",
+      "output": "1110000",
+      "valid": 1
+    },
+    {
+      "input": 8,
+      "bits": "1000",
+      "output": "1111111",
+      "valid": 1
+    },
+    {
+      "input": 9,
+      "bits": "1001",
+      "output": "1111011",
+      "valid": 1
+    },
+    {
+      "input": 10,
+      "bits": "1010",
+      "output": "0000000",
+      "valid": 0
+    },
+    {
+      "input": 11,
+      "bits": "1011",
+      "output": "0000000",
+      "valid": 0
+    },
+    {
+      "input": 12,
+      "bits": "1100",
+      "output": "0000000",
+      "valid": 0
+    },
+    {
+      "input": 13,
+      "bits": "1101",
+      "output": "0000000",
+      "valid": 0
+    },
+    {
+      "input": 14,
+      "bits": "1110",
+      "output": "0000000",
+      "valid": 0
+    },
+    {
+      "input": 15,
+      "bits": "1111",
+      "output": "0000000",
+      "valid": 0
+    }
+  ],
+  "kmapGroups": [
+    {
+      "label": "I₁",
+      "cells": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        11,
+        14,
+        15
+      ],
+      "color": "#77edcc"
+    },
+    {
+      "label": "I₃",
+      "cells": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "color": "#ffc878"
+    },
+    {
+      "label": "I₂·I₀",
+      "cells": [
+        5,
+        7,
+        13,
+        15
+      ],
+      "color": "#aab6ff"
+    },
+    {
+      "label": "¬I₂·¬I₀",
+      "cells": [
+        0,
+        2,
+        8,
+        10
+      ],
+      "color": "#ffa8be"
+    }
+  ],
+  "sceneCount": 15,
+  "duration": 428.06666666666666
+}

@@ -1,0 +1,273 @@
+{
+  "id": "06-truth",
+  "duration": 22.152,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.276291,
+      "text": "Let's"
+    },
+    {
+      "start": 0.289458,
+      "end": 0.684208,
+      "text": "design"
+    },
+    {
+      "start": 0.697375,
+      "end": 0.776333,
+      "text": "the"
+    },
+    {
+      "start": 0.789458,
+      "end": 1.065791,
+      "text": "top"
+    },
+    {
+      "start": 1.078958,
+      "end": 1.539499,
+      "text": "segment"
+    },
+    {
+      "start": 1.736833,
+      "end": 1.894708,
+      "text": "a"
+    },
+    {
+      "start": 2.328958,
+      "end": 2.434208,
+      "text": "It"
+    },
+    {
+      "start": 2.447375,
+      "end": 2.697375,
+      "text": "lights"
+    },
+    {
+      "start": 2.710541,
+      "end": 2.868416,
+      "text": "for"
+    },
+    {
+      "start": 2.881583,
+      "end": 3.381583,
+      "text": "zero"
+    },
+    {
+      "start": 3.64475,
+      "end": 3.986875,
+      "text": "two"
+    },
+    {
+      "start": 4.223666,
+      "end": 4.684207,
+      "text": "three"
+    },
+    {
+      "start": 4.986833,
+      "end": 5.460499,
+      "text": "five"
+    },
+    {
+      "start": 5.85525,
+      "end": 6.394708,
+      "text": "six"
+    },
+    {
+      "start": 6.592125,
+      "end": 7.026333,
+      "text": "seven"
+    },
+    {
+      "start": 7.473666,
+      "end": 7.789457,
+      "text": "eight"
+    },
+    {
+      "start": 8.039458,
+      "end": 8.157874,
+      "text": "and"
+    },
+    {
+      "start": 8.171041,
+      "end": 8.565791,
+      "text": "nine"
+    },
+    {
+      "start": 9.0,
+      "end": 9.092125,
+      "text": "It"
+    },
+    {
+      "start": 9.10525,
+      "end": 9.447375,
+      "text": "stays"
+    },
+    {
+      "start": 9.460541,
+      "end": 9.671082,
+      "text": "off"
+    },
+    {
+      "start": 9.684208,
+      "end": 9.842083,
+      "text": "for"
+    },
+    {
+      "start": 9.85525,
+      "end": 10.026291,
+      "text": "one"
+    },
+    {
+      "start": 10.039458,
+      "end": 10.118416,
+      "text": "and"
+    },
+    {
+      "start": 10.131583,
+      "end": 10.552624,
+      "text": "four"
+    },
+    {
+      "start": 11.0,
+      "end": 11.197375,
+      "text": "These"
+    },
+    {
+      "start": 11.210541,
+      "end": 11.921082,
+      "text": "requirements"
+    },
+    {
+      "start": 11.934208,
+      "end": 12.302624,
+      "text": "form"
+    },
+    {
+      "start": 12.368416,
+      "end": 12.407874,
+      "text": "a"
+    },
+    {
+      "start": 12.421041,
+      "end": 12.776291,
+      "text": "truth"
+    },
+    {
+      "start": 12.789458,
+      "end": 13.184208,
+      "text": "table"
+    },
+    {
+      "start": 13.618416,
+      "end": 13.736832,
+      "text": "We"
+    },
+    {
+      "start": 13.75,
+      "end": 13.907875,
+      "text": "could"
+    },
+    {
+      "start": 13.921041,
+      "end": 14.157874,
+      "text": "build"
+    },
+    {
+      "start": 14.171041,
+      "end": 14.210499,
+      "text": "a"
+    },
+    {
+      "start": 14.223666,
+      "end": 14.644707,
+      "text": "separate"
+    },
+    {
+      "start": 14.657875,
+      "end": 15.157875,
+      "text": "detector"
+    },
+    {
+      "start": 15.171041,
+      "end": 15.381582,
+      "text": "for"
+    },
+    {
+      "start": 15.5,
+      "end": 15.802625,
+      "text": "every"
+    },
+    {
+      "start": 15.815791,
+      "end": 16.499999,
+      "text": "illuminated"
+    },
+    {
+      "start": 16.513166,
+      "end": 17.052624,
+      "text": "case"
+    },
+    {
+      "start": 17.342125,
+      "end": 17.473708,
+      "text": "but"
+    },
+    {
+      "start": 17.486833,
+      "end": 17.539458,
+      "text": "a"
+    },
+    {
+      "start": 17.552625,
+      "end": 17.986833,
+      "text": "Karnaugh"
+    },
+    {
+      "start": 18.0,
+      "end": 18.39475,
+      "text": "map"
+    },
+    {
+      "start": 18.631583,
+      "end": 18.921041,
+      "text": "helps"
+    },
+    {
+      "start": 18.934208,
+      "end": 19.052624,
+      "text": "us"
+    },
+    {
+      "start": 19.065791,
+      "end": 19.578957,
+      "text": "combine"
+    },
+    {
+      "start": 19.592125,
+      "end": 20.197375,
+      "text": "cases"
+    },
+    {
+      "start": 20.407875,
+      "end": 20.56575,
+      "text": "and"
+    },
+    {
+      "start": 20.578958,
+      "end": 21.157916,
+      "text": "simplify"
+    },
+    {
+      "start": 21.171041,
+      "end": 21.249999,
+      "text": "the"
+    },
+    {
+      "start": 21.263166,
+      "end": 21.749999,
+      "text": "circuit"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

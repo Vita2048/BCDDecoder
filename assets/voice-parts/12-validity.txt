@@ -1,0 +1,1 @@
+Don’t-care cells simplified the internal logic, but they do not guarantee a blank display for invalid inputs. We add a validity signal. A code is valid when the eight’s bit is zero, or when both the four’s and two’s bits are zero. Every segment output is ANDed with this signal. Inputs ten through fifteen therefore turn every segment off.

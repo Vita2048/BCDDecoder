@@ -1,0 +1,67 @@
+{
+  "samples": [
+    {
+      "id": "01-introduction",
+      "time": 11.5
+    },
+    {
+      "id": "02-and",
+      "time": 35
+    },
+    {
+      "id": "03-or",
+      "time": 59
+    },
+    {
+      "id": "04-not",
+      "time": 80
+    },
+    {
+      "id": "05-interface",
+      "time": 102.5
+    },
+    {
+      "id": "06-truth",
+      "time": 129.5
+    },
+    {
+      "id": "07-map",
+      "time": 157.5
+    },
+    {
+      "id": "08-grouping",
+      "time": 189
+    },
+    {
+      "id": "09-derive",
+      "time": 227.01666666666665
+    },
+    {
+      "id": "10-gates",
+      "time": 262.0333333333333
+    },
+    {
+      "id": "11-pla",
+      "time": 292.0333333333333
+    },
+    {
+      "id": "12-validity",
+      "time": 322.04999999999995
+    },
+    {
+      "id": "13-trace",
+      "time": 351.06666666666666
+    },
+    {
+      "id": "14-simulation",
+      "time": 386.06666666666666
+    },
+    {
+      "id": "15-recap",
+      "time": 417.06666666666666
+    }
+  ],
+  "violations": [],
+  "backwardSeekIdentical": true,
+  "errors": []
+}

@@ -1,0 +1,253 @@
+{
+  "id": "10-gates",
+  "duration": 19.92,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.289458,
+      "text": "Now"
+    },
+    {
+      "start": 0.302625,
+      "end": 0.907875,
+      "text": "translate"
+    },
+    {
+      "start": 0.921041,
+      "end": 1.013166,
+      "text": "the"
+    },
+    {
+      "start": 1.026333,
+      "end": 1.697374,
+      "text": "equation"
+    },
+    {
+      "start": 1.802625,
+      "end": 2.026291,
+      "text": "into"
+    },
+    {
+      "start": 2.039458,
+      "end": 2.644708,
+      "text": "hardware"
+    },
+    {
+      "start": 3.092125,
+      "end": 3.157916,
+      "text": "The"
+    },
+    {
+      "start": 3.171041,
+      "end": 3.394707,
+      "text": "two"
+    },
+    {
+      "start": 3.407875,
+      "end": 4.197333,
+      "text": "single-variable"
+    },
+    {
+      "start": 4.210541,
+      "end": 4.657916,
+      "text": "terms"
+    },
+    {
+      "start": 4.815791,
+      "end": 4.960541,
+      "text": "are"
+    },
+    {
+      "start": 4.973666,
+      "end": 5.394707,
+      "text": "direct"
+    },
+    {
+      "start": 5.407875,
+      "end": 6.039458,
+      "text": "signals"
+    },
+    {
+      "start": 6.473666,
+      "end": 6.592082,
+      "text": "The"
+    },
+    {
+      "start": 6.60525,
+      "end": 6.85525,
+      "text": "other"
+    },
+    {
+      "start": 6.868416,
+      "end": 7.157874,
+      "text": "two"
+    },
+    {
+      "start": 7.171041,
+      "end": 7.592082,
+      "text": "terms"
+    },
+    {
+      "start": 7.60525,
+      "end": 8.013125,
+      "text": "use"
+    },
+    {
+      "start": 8.026333,
+      "end": 8.144749,
+      "text": "AND"
+    },
+    {
+      "start": 8.157875,
+      "end": 8.7105,
+      "text": "gates"
+    },
+    {
+      "start": 8.934208,
+      "end": 9.092083,
+      "text": "with"
+    },
+    {
+      "start": 9.10525,
+      "end": 9.513125,
+      "text": "inverted"
+    },
+    {
+      "start": 9.526333,
+      "end": 9.999999,
+      "text": "inputs"
+    },
+    {
+      "start": 10.013166,
+      "end": 10.131582,
+      "text": "where"
+    },
+    {
+      "start": 10.14475,
+      "end": 10.5395,
+      "text": "needed"
+    },
+    {
+      "start": 10.973666,
+      "end": 11.105249,
+      "text": "An"
+    },
+    {
+      "start": 11.118416,
+      "end": 11.289457,
+      "text": "OR"
+    },
+    {
+      "start": 11.302625,
+      "end": 11.539458,
+      "text": "gate"
+    },
+    {
+      "start": 11.552625,
+      "end": 12.171041,
+      "text": "combines"
+    },
+    {
+      "start": 12.302625,
+      "end": 12.513166,
+      "text": "all"
+    },
+    {
+      "start": 12.526333,
+      "end": 12.789499,
+      "text": "four"
+    },
+    {
+      "start": 12.802625,
+      "end": 13.35525,
+      "text": "terms"
+    },
+    {
+      "start": 13.789458,
+      "end": 13.960499,
+      "text": "This"
+    },
+    {
+      "start": 13.973666,
+      "end": 14.486832,
+      "text": "structure"
+    },
+    {
+      "start": 14.5,
+      "end": 14.60525,
+      "text": "is"
+    },
+    {
+      "start": 14.618416,
+      "end": 14.894749,
+      "text": "called"
+    },
+    {
+      "start": 14.907875,
+      "end": 14.947333,
+      "text": "a"
+    },
+    {
+      "start": 14.960541,
+      "end": 15.197374,
+      "text": "sum"
+    },
+    {
+      "start": 15.210541,
+      "end": 15.289499,
+      "text": "of"
+    },
+    {
+      "start": 15.302625,
+      "end": 15.947375,
+      "text": "products"
+    },
+    {
+      "start": 16.342125,
+      "end": 16.473708,
+      "text": "AND"
+    },
+    {
+      "start": 16.486833,
+      "end": 17.171041,
+      "text": "operations"
+    },
+    {
+      "start": 17.184208,
+      "end": 17.434208,
+      "text": "form"
+    },
+    {
+      "start": 17.447375,
+      "end": 17.526333,
+      "text": "the"
+    },
+    {
+      "start": 17.539458,
+      "end": 18.144708,
+      "text": "products"
+    },
+    {
+      "start": 18.35525,
+      "end": 18.565791,
+      "text": "and"
+    },
+    {
+      "start": 18.671041,
+      "end": 18.802624,
+      "text": "OR"
+    },
+    {
+      "start": 18.815791,
+      "end": 19.315791,
+      "text": "combines"
+    },
+    {
+      "start": 19.328958,
+      "end": 19.526333,
+      "text": "them"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

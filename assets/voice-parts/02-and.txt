@@ -1,0 +1,1 @@
+A logic signal has two states: zero and one. An AND gate produces one only when both inputs are one. If either input is zero, the output is zero. We write this as X AND Y, or X dot Y. Later, AND gates will recognize particular combinations of our input bits.

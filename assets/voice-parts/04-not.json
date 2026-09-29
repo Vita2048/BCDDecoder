@@ -1,0 +1,188 @@
+{
+  "id": "04-not",
+  "duration": 14.016,
+  "words": [
+    {
+      "start": 0.092125,
+      "end": 0.131583,
+      "text": "A"
+    },
+    {
+      "start": 0.14475,
+      "end": 0.473708,
+      "text": "NOT"
+    },
+    {
+      "start": 0.486833,
+      "end": 0.776291,
+      "text": "gate"
+    },
+    {
+      "start": 0.789458,
+      "end": 1.368416,
+      "text": "reverses"
+    },
+    {
+      "start": 1.381583,
+      "end": 1.539458,
+      "text": "its"
+    },
+    {
+      "start": 1.552625,
+      "end": 2.013166,
+      "text": "input"
+    },
+    {
+      "start": 2.5,
+      "end": 2.921041,
+      "text": "zero"
+    },
+    {
+      "start": 2.934208,
+      "end": 3.381583,
+      "text": "becomes"
+    },
+    {
+      "start": 3.39475,
+      "end": 3.763166,
+      "text": "one"
+    },
+    {
+      "start": 4.197375,
+      "end": 4.328958,
+      "text": "and"
+    },
+    {
+      "start": 4.342125,
+      "end": 4.578958,
+      "text": "one"
+    },
+    {
+      "start": 4.592125,
+      "end": 5.026333,
+      "text": "becomes"
+    },
+    {
+      "start": 5.039458,
+      "end": 5.526291,
+      "text": "zero"
+    },
+    {
+      "start": 5.960541,
+      "end": 6.026332,
+      "text": "A"
+    },
+    {
+      "start": 6.039458,
+      "end": 6.276291,
+      "text": "bar"
+    },
+    {
+      "start": 6.289458,
+      "end": 6.513124,
+      "text": "over"
+    },
+    {
+      "start": 6.526333,
+      "end": 6.565791,
+      "text": "a"
+    },
+    {
+      "start": 6.578958,
+      "end": 7.131583,
+      "text": "variable"
+    },
+    {
+      "start": 7.35525,
+      "end": 7.60525,
+      "text": "means"
+    },
+    {
+      "start": 7.618416,
+      "end": 8.026291,
+      "text": "NOT"
+    },
+    {
+      "start": 8.460541,
+      "end": 8.723707,
+      "text": "Having"
+    },
+    {
+      "start": 8.736833,
+      "end": 9.039458,
+      "text": "both"
+    },
+    {
+      "start": 9.052625,
+      "end": 9.10525,
+      "text": "a"
+    },
+    {
+      "start": 9.118416,
+      "end": 9.631582,
+      "text": "signal"
+    },
+    {
+      "start": 9.89475,
+      "end": 9.973708,
+      "text": "and"
+    },
+    {
+      "start": 9.986833,
+      "end": 10.131583,
+      "text": "its"
+    },
+    {
+      "start": 10.14475,
+      "end": 10.618416,
+      "text": "inverse"
+    },
+    {
+      "start": 10.631583,
+      "end": 10.842124,
+      "text": "lets"
+    },
+    {
+      "start": 10.85525,
+      "end": 11.0,
+      "text": "us"
+    },
+    {
+      "start": 11.013166,
+      "end": 11.710541,
+      "text": "recognize"
+    },
+    {
+      "start": 11.85525,
+      "end": 12.131583,
+      "text": "either"
+    },
+    {
+      "start": 12.14475,
+      "end": 12.64475,
+      "text": "value"
+    },
+    {
+      "start": 12.657875,
+      "end": 12.763125,
+      "text": "of"
+    },
+    {
+      "start": 12.776333,
+      "end": 12.868458,
+      "text": "an"
+    },
+    {
+      "start": 12.881583,
+      "end": 13.302624,
+      "text": "input"
+    },
+    {
+      "start": 13.315791,
+      "end": 13.631582,
+      "text": "bit"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

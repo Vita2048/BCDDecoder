@@ -1,0 +1,197 @@
+[
+  {
+    "id": "01-introduction",
+    "title": "From four bits to one digit",
+    "chapter": "THE DESIGN CHALLENGE",
+    "min": 23,
+    "takeaway": "Design the logic that turns a BCD input into a decimal digit.",
+    "speech": [
+      "In this video, we'll design a digital circuit that converts a four-bit BCD input into the seven signals needed to display a decimal digit.",
+      "We'll start with simple logic gates, simplify one output with a Karnaugh map, and then watch the complete decoder operate."
+    ]
+  },
+  {
+    "id": "02-and",
+    "title": "AND: both inputs must be 1",
+    "chapter": "01 / LOGIC GATES",
+    "min": 24,
+    "takeaway": "AND recognizes a combination: every required condition must be true.",
+    "speech": [
+      "A logic signal has two states: zero and one. An AND gate produces one only when both inputs are one.",
+      "If either input is zero, the output is zero.",
+      "We write this as X AND Y, or X dot Y. Later, AND gates will recognize particular combinations of our input bits."
+    ]
+  },
+  {
+    "id": "03-or",
+    "title": "OR: at least one input is 1",
+    "chapter": "01 / LOGIC GATES",
+    "min": 24,
+    "takeaway": "OR combines alternatives. Both inputs may be 1.",
+    "speech": [
+      "An OR gate produces one when either input is one, including when both are one.",
+      "Only two zero inputs produce a zero output.",
+      "We write OR using a plus sign. This is Boolean logic, so one OR one is still one.",
+      "OR gates will combine the different conditions that light a segment."
+    ]
+  },
+  {
+    "id": "04-not",
+    "title": "NOT: reverse the signal",
+    "chapter": "01 / LOGIC GATES",
+    "min": 18,
+    "takeaway": "A bar means NOT: 0 becomes 1, and 1 becomes 0.",
+    "speech": [
+      "A NOT gate reverses its input: zero becomes one, and one becomes zero.",
+      "A bar over a variable means NOT.",
+      "Having both a signal and its inverse lets us recognize either value of an input bit."
+    ]
+  },
+  {
+    "id": "05-interface",
+    "title": "Define the input and the outputs",
+    "chapter": "02 / THE DECODER",
+    "min": 27,
+    "takeaway": "BCD is one decimal digit in four bits. Output 1 means segment ON.",
+    "speech": [
+      "Binary-coded decimal, or BCD, represents one decimal digit with four bits.",
+      "Their weights are eight, four, two, and one. Zero-one-zero-one therefore represents five.",
+      "Our seven outputs control segments a through g, with one meaning illuminated.",
+      "Each segment has its own Boolean function of the same four inputs."
+    ]
+  },
+  {
+    "id": "06-truth",
+    "title": "Design one output: segment a",
+    "chapter": "02 / THE DECODER",
+    "min": 27,
+    "takeaway": "Top segment a is OFF for 1 and 4, and ON for every other BCD digit.",
+    "speech": [
+      "Let's design the top segment, a. It lights for zero, two, three, five, six, seven, eight, and nine.",
+      "It stays off for one and four. These requirements form a truth table.",
+      "We could build a separate detector for every illuminated case, but a Karnaugh map helps us combine cases and simplify the circuit."
+    ]
+  },
+  {
+    "id": "07-map",
+    "title": "Rearrange the truth table",
+    "chapter": "03 / KARNAUGH MAP",
+    "min": 29,
+    "takeaway": "Gray-code order makes neighboring cells differ in exactly one bit.",
+    "speech": [
+      "A Karnaugh map rearranges the truth table so neighboring cells differ in just one bit.",
+      "Notice the order: zero-zero, zero-one, one-one, one-zero.",
+      "The rows describe the upper two input bits; the columns describe the lower two.",
+      "Every cell still represents exactly one input combination."
+    ]
+  },
+  {
+    "id": "08-grouping",
+    "title": "Group neighbors to simplify",
+    "chapter": "03 / KARNAUGH MAP",
+    "min": 34,
+    "takeaway": "Use rectangular groups of 1, 2, 4, 8… cells. Never include a 0.",
+    "speech": [
+      "We group ones into rectangles containing a power-of-two number of cells.",
+      "Groups may overlap, and opposite edges of the map are neighbors.",
+      "The X cells represent inputs ten through fifteen, which are not decimal BCD digits.",
+      "We may include these don't-care cells when they help simplify the logic.",
+      "Later, a separate validity signal will blank those inputs."
+    ]
+  },
+  {
+    "id": "09-derive",
+    "title": "Keep only the bits that stay constant",
+    "chapter": "03 / KARNAUGH MAP",
+    "min": 42,
+    "takeaway": "A changing input disappears from that group’s product term.",
+    "speech": [
+      "Within each group, keep only the bits that remain constant.",
+      "First, these eight cells all have I one equal to one, so their term is simply I one.",
+      "Another group has I three equal to one.",
+      "This four-cell group keeps I two and I zero both equal to one.",
+      "Finally, the four corners wrap around the map and keep both of those bits at zero.",
+      "OR these four terms together to obtain our simplified expression."
+    ]
+  },
+  {
+    "id": "10-gates",
+    "title": "Turn the expression into a circuit",
+    "chapter": "04 / BUILD THE LOGIC",
+    "min": 28,
+    "takeaway": "Sum of products: AND builds each condition; OR combines the conditions.",
+    "speech": [
+      "Now translate the equation into hardware. The two single-variable terms are direct signals.",
+      "The other two terms use AND gates, with inverted inputs where needed.",
+      "An OR gate combines all four terms.",
+      "This structure is called a sum of products: AND operations form the products, and OR combines them."
+    ]
+  },
+  {
+    "id": "11-pla",
+    "title": "Share the logic in a regular array",
+    "chapter": "04 / BUILD THE LOGIC",
+    "min": 32,
+    "takeaway": "15 shared product terms → 7 segment functions. A dot means connected.",
+    "speech": [
+      "We repeat the same design process for the other six segments.",
+      "To keep the circuit organized, we arrange it as a programmable logic array, or PLA.",
+      "The AND plane generates product terms from shared input rails.",
+      "The OR plane selects which terms contribute to each segment.",
+      "A term needed by several segments is generated once and shared."
+    ]
+  },
+  {
+    "id": "12-validity",
+    "title": "Blank every invalid BCD input",
+    "chapter": "04 / BUILD THE LOGIC",
+    "min": 28,
+    "takeaway": "Don’t-care simplification + explicit blanking = defined behavior for all 16 inputs.",
+    "speech": [
+      "Don’t-care cells simplified the internal logic, but they do not guarantee a blank display for invalid inputs.",
+      "We add a validity signal. A code is valid when the eight’s bit is zero, or when both the four’s and two’s bits are zero.",
+      "Every segment output is ANDed with this signal.",
+      "Inputs ten through fifteen therefore turn every segment off."
+    ]
+  },
+  {
+    "id": "13-trace",
+    "title": "Trace one input: 0101 → 5",
+    "chapter": "05 / SIMULATE",
+    "min": 30,
+    "takeaway": "0101 enables a, c, d, f and g. The display shows 5.",
+    "speech": [
+      "Let’s follow the input zero-one-zero-one: decimal five.",
+      "The input rails provide each bit and its inverse.",
+      "The AND plane evaluates every product term, and the OR plane combines the selected results.",
+      "Outputs a, c, d, f, and g become one.",
+      "The input is valid, so these five segments illuminate and form the digit five."
+    ]
+  },
+  {
+    "id": "14-simulation",
+    "title": "Exercise the complete decoder",
+    "chapter": "05 / SIMULATE",
+    "min": 40,
+    "takeaway": "The same fixed circuit handles every input: 0–9 display; 10–15 blank.",
+    "speech": [
+      "Now we can exercise the complete decoder.",
+      "As the input counts from zero to nine, the same fixed logic produces each digit’s segment pattern. No circuit changes are needed.",
+      "When the input reaches ten, VALID becomes zero and the display goes blank.",
+      "The remaining invalid codes are blanked in the same way."
+    ],
+    "special": "simulation"
+  },
+  {
+    "id": "15-recap",
+    "title": "From a requirement to working logic",
+    "chapter": "DESIGN METHOD",
+    "min": 22,
+    "takeaway": "One repeatable method. Seven outputs. A complete decoder.",
+    "speech": [
+      "Start by deciding when each segment must light.",
+      "Write its truth table, simplify it with a Karnaugh map, and implement the result with AND, OR, and NOT.",
+      "Organize shared terms into a PLA, validate every input, and the complete seven-segment decoder follows."
+    ]
+  }
+]

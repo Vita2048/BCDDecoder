@@ -1,0 +1,1 @@
+A Karnaugh map rearranges the truth table so neighboring cells differ in just one bit. Notice the order: zero-zero, zero-one, one-one, one-zero. The rows describe the upper two input bits; the columns describe the lower two. Every cell still represents exactly one input combination.

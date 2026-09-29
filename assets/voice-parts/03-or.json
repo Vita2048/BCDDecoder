@@ -1,0 +1,268 @@
+{
+  "id": "03-or",
+  "duration": 19.056,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.223666,
+      "text": "An"
+    },
+    {
+      "start": 0.236833,
+      "end": 0.394708,
+      "text": "OR"
+    },
+    {
+      "start": 0.407875,
+      "end": 0.644708,
+      "text": "gate"
+    },
+    {
+      "start": 0.657875,
+      "end": 1.184208,
+      "text": "produces"
+    },
+    {
+      "start": 1.197375,
+      "end": 1.5395,
+      "text": "one"
+    },
+    {
+      "start": 1.552625,
+      "end": 1.736833,
+      "text": "when"
+    },
+    {
+      "start": 1.868416,
+      "end": 2.157874,
+      "text": "either"
+    },
+    {
+      "start": 2.171041,
+      "end": 2.618416,
+      "text": "input"
+    },
+    {
+      "start": 2.631583,
+      "end": 2.776333,
+      "text": "is"
+    },
+    {
+      "start": 2.789458,
+      "end": 3.171041,
+      "text": "one"
+    },
+    {
+      "start": 3.592125,
+      "end": 4.118458,
+      "text": "including"
+    },
+    {
+      "start": 4.276333,
+      "end": 4.434208,
+      "text": "when"
+    },
+    {
+      "start": 4.447375,
+      "end": 4.815791,
+      "text": "both"
+    },
+    {
+      "start": 4.828958,
+      "end": 4.986833,
+      "text": "are"
+    },
+    {
+      "start": 5.0,
+      "end": 5.302625,
+      "text": "one"
+    },
+    {
+      "start": 5.736833,
+      "end": 6.026291,
+      "text": "Only"
+    },
+    {
+      "start": 6.039458,
+      "end": 6.328916,
+      "text": "two"
+    },
+    {
+      "start": 6.342125,
+      "end": 6.710541,
+      "text": "zero"
+    },
+    {
+      "start": 6.723666,
+      "end": 7.118416,
+      "text": "inputs"
+    },
+    {
+      "start": 7.131583,
+      "end": 7.657916,
+      "text": "produce"
+    },
+    {
+      "start": 7.75,
+      "end": 7.802625,
+      "text": "a"
+    },
+    {
+      "start": 7.815791,
+      "end": 8.263166,
+      "text": "zero"
+    },
+    {
+      "start": 8.276333,
+      "end": 8.815791,
+      "text": "output"
+    },
+    {
+      "start": 9.25,
+      "end": 9.381583,
+      "text": "We"
+    },
+    {
+      "start": 9.39475,
+      "end": 9.736875,
+      "text": "write"
+    },
+    {
+      "start": 9.868416,
+      "end": 9.986832,
+      "text": "OR"
+    },
+    {
+      "start": 10.0,
+      "end": 10.276333,
+      "text": "using"
+    },
+    {
+      "start": 10.289458,
+      "end": 10.342083,
+      "text": "a"
+    },
+    {
+      "start": 10.35525,
+      "end": 10.657875,
+      "text": "plus"
+    },
+    {
+      "start": 10.671041,
+      "end": 11.052624,
+      "text": "sign"
+    },
+    {
+      "start": 11.5,
+      "end": 11.697375,
+      "text": "This"
+    },
+    {
+      "start": 11.710541,
+      "end": 11.828957,
+      "text": "is"
+    },
+    {
+      "start": 11.842125,
+      "end": 12.236875,
+      "text": "Boolean"
+    },
+    {
+      "start": 12.25,
+      "end": 12.697375,
+      "text": "logic"
+    },
+    {
+      "start": 12.960541,
+      "end": 13.171082,
+      "text": "so"
+    },
+    {
+      "start": 13.184208,
+      "end": 13.592083,
+      "text": "one"
+    },
+    {
+      "start": 13.710541,
+      "end": 13.828957,
+      "text": "OR"
+    },
+    {
+      "start": 13.842125,
+      "end": 14.157916,
+      "text": "one"
+    },
+    {
+      "start": 14.223666,
+      "end": 14.315791,
+      "text": "is"
+    },
+    {
+      "start": 14.328958,
+      "end": 14.605291,
+      "text": "still"
+    },
+    {
+      "start": 14.618416,
+      "end": 14.881582,
+      "text": "one"
+    },
+    {
+      "start": 15.315791,
+      "end": 15.447374,
+      "text": "OR"
+    },
+    {
+      "start": 15.460541,
+      "end": 15.736874,
+      "text": "gates"
+    },
+    {
+      "start": 15.75,
+      "end": 15.89475,
+      "text": "will"
+    },
+    {
+      "start": 15.907875,
+      "end": 16.434208,
+      "text": "combine"
+    },
+    {
+      "start": 16.447375,
+      "end": 16.592125,
+      "text": "the"
+    },
+    {
+      "start": 16.671041,
+      "end": 17.013166,
+      "text": "different"
+    },
+    {
+      "start": 17.026333,
+      "end": 17.657916,
+      "text": "conditions"
+    },
+    {
+      "start": 17.671041,
+      "end": 17.855249,
+      "text": "that"
+    },
+    {
+      "start": 17.868416,
+      "end": 18.052624,
+      "text": "light"
+    },
+    {
+      "start": 18.065791,
+      "end": 18.105249,
+      "text": "a"
+    },
+    {
+      "start": 18.118416,
+      "end": 18.671041,
+      "text": "segment"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

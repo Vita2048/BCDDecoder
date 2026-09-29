@@ -1,0 +1,1 @@
+We group ones into rectangles containing a power-of-two number of cells. Groups may overlap, and opposite edges of the map are neighbors. The X cells represent inputs ten through fifteen, which are not decimal BCD digits. We may include these don't-care cells when they help simplify the logic. Later, a separate validity signal will blank those inputs.

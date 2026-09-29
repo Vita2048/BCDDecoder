@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00:00.918 --> 00:00:05.116
+In this video we'll design a digital circuit that converts a four-bit
+
+00:00:05.116 --> 00:00:09.947
+BCD input into the seven signals needed to display a decimal digit.
+
+00:00:13.401 --> 00:00:17.006
+We'll start with simple logic gates simplify one output with
+
+00:00:17.006 --> 00:00:20.679
+a Karnaugh map and then watch the complete decoder operate.
+
+00:00:23.905 --> 00:00:27.734
+A logic signal has two states zero and one An
+
+00:00:27.734 --> 00:00:31.157
+AND gate produces one only when both inputs are one.
+
+00:00:32.286 --> 00:00:35.538
+If either input is zero the output is zero.
+
+00:00:36.679 --> 00:00:39.773
+We write this as X AND Y or X dot Y
+
+00:00:40.047 --> 00:00:44.668
+Later AND gates will recognize particular combinations of our input bits.
+
+00:00:47.905 --> 00:00:53.263
+An OR gate produces one when either input is one including when both are one.
+
+00:00:54.218 --> 00:00:57.457
+Only two zero inputs produce a zero output.
+
+00:00:58.413 --> 00:01:04.204
+We write OR using a plus sign This is Boolean logic so one OR one is still one.
+
+00:01:05.160 --> 00:01:08.675
+OR gates will combine the different conditions that light a segment.
+
+00:01:11.892 --> 00:01:17.486
+A NOT gate reverses its input zero becomes one and one becomes zero.
+
+00:01:18.303 --> 00:01:20.528
+A bar over a variable means NOT.
+
+00:01:21.345 --> 00:01:23.739
+Having both a signal and its inverse lets
+
+00:01:23.739 --> 00:01:26.676
+us recognize either value of an input bit.
+
+00:01:29.918 --> 00:01:35.921
+Binary-coded decimal or BCD represents one decimal digit with four bits.
+
+00:01:36.513 --> 00:01:39.107
+Their weights are eight four two
+
+00:01:39.158 --> 00:01:42.963
+and one Zero-one-zero-one therefore represents five.
+
+00:01:43.542 --> 00:01:48.873
+Our seven outputs control segments a through g with one meaning illuminated.
+
+00:01:49.453 --> 00:01:53.679
+Each segment has its own Boolean function of the same four inputs.
+
+00:01:56.905 --> 00:01:59.682
+Let's design the top segment a It lights for
+
+00:01:59.682 --> 00:02:05.526
+zero two three five six seven eight and nine.
+
+00:02:06.774 --> 00:02:11.118
+It stays off for one and four These requirements form a truth table.
+
+00:02:12.366 --> 00:02:16.235
+We could build a separate detector for every illuminated case but
+
+00:02:16.235 --> 00:02:20.658
+a Karnaugh map helps us combine cases and simplify the circuit.
+
+00:02:23.905 --> 00:02:26.945
+A Karnaugh map rearranges the truth table so
+
+00:02:26.945 --> 00:02:29.500
+neighboring cells differ in just one bit.
+
+00:02:31.658 --> 00:02:36.673
+Notice the order zero-zero zero-one one-one one-zero.
+
+00:02:38.831 --> 00:02:43.623
+The rows describe the upper two input bits the columns describe the lower two.
+
+00:02:45.781 --> 00:02:49.665
+Every cell still represents exactly one input combination.
+
+00:02:52.918 --> 00:02:57.526
+We group ones into rectangles containing a power-of-two number of cells.
+
+00:02:59.611 --> 00:03:03.679
+Groups may overlap and opposite edges of the map are neighbors.
+
+00:03:05.764 --> 00:03:11.832
+The X cells represent inputs ten through fifteen which are not decimal BCD digits.
+
+00:03:13.917 --> 00:03:17.880
+We may include these don't-care cells when they help simplify the logic.
+
+00:03:19.965 --> 00:03:23.665
+Later a separate validity signal will blank those inputs.
+
+00:03:26.918 --> 00:03:30.434
+Within each group keep only the bits that remain constant.
+
+00:03:33.261 --> 00:03:39.039
+First these eight cells all have I one equal to one so their term is simply I one.
+
+00:03:41.801 --> 00:03:44.211
+Another group has I three equal to one.
+
+00:03:46.972 --> 00:03:51.093
+This four-cell group keeps I two and I zero both equal to one.
+
+00:03:53.920 --> 00:03:58.948
+Finally the four corners wrap around the map and keep both of those bits at zero.
+
+00:04:01.723 --> 00:04:05.659
+OR these four terms together to obtain our simplified expression.
+
+00:04:08.939 --> 00:04:12.004
+Now translate the equation into hardware The
+
+00:04:12.004 --> 00:04:15.033
+two single-variable terms are direct signals.
+
+00:04:17.034 --> 00:04:21.260
+The other two terms use AND gates with inverted inputs where needed.
+
+00:04:23.260 --> 00:04:25.802
+An OR gate combines all four terms.
+
+00:04:27.803 --> 00:04:30.500
+This structure is called a sum of products AND
+
+00:04:30.500 --> 00:04:33.700
+operations form the products and OR combines them.
+
+00:04:36.939 --> 00:04:40.480
+We repeat the same design process for the other six segments.
+
+00:04:42.545 --> 00:04:47.942
+To keep the circuit organized we arrange it as a programmable logic array or PLA.
+
+00:04:50.007 --> 00:04:53.786
+The AND plane generates product terms from shared input rails.
+
+00:04:55.851 --> 00:04:59.419
+The OR plane selects which terms contribute to each segment.
+
+00:05:01.484 --> 00:05:05.710
+A term needed by several segments is generated once and shared.
+
+00:05:08.939 --> 00:05:12.386
+Don’t-care cells simplified the internal logic but they do
+
+00:05:12.386 --> 00:05:16.191
+not guarantee a blank display for invalid inputs.
+
+00:05:17.168 --> 00:05:20.865
+We add a validity signal A code is valid when the eight’s bit
+
+00:05:20.865 --> 00:05:24.841
+is zero or when both the four’s and two’s bits are zero.
+
+00:05:25.818 --> 00:05:28.793
+Every segment output is ANDed with this signal.
+
+00:05:29.770 --> 00:05:33.693
+Inputs ten through fifteen therefore turn every segment off.
+
+00:05:36.972 --> 00:05:40.606
+Let’s follow the input zero-one-zero-one decimal five.
+
+00:05:41.523 --> 00:05:44.762
+The input rails provide each bit and its inverse.
+
+00:05:45.679 --> 00:05:49.113
+The AND plane evaluates every product term and
+
+00:05:49.113 --> 00:05:51.786
+the OR plane combines the selected results.
+
+00:05:52.704 --> 00:05:57.535
+Outputs a c d f and g become one.
+
+00:05:58.452 --> 00:06:03.730
+The input is valid so these five segments illuminate and form the digit five.
+
+00:06:06.972 --> 00:06:09.448
+Now we can exercise the complete decoder.
+
+00:06:09.722 --> 00:06:13.393
+As the input counts from zero to nine the same fixed
+
+00:06:13.393 --> 00:06:17.842
+logic produces each digit’s segment pattern No circuit changes are needed.
+
+00:06:31.722 --> 00:06:36.869
+When the input reaches ten VALID becomes zero and the display goes blank.
+
+00:06:37.156 --> 00:06:40.277
+The remaining invalid codes are blanked in the same way.
+
+00:06:46.972 --> 00:06:49.948
+Start by deciding when each segment must light.
+
+00:06:50.640 --> 00:06:53.984
+Write its truth table simplify it with a Karnaugh map
+
+00:06:54.127 --> 00:06:57.524
+and implement the result with AND OR and NOT.
+
+00:06:58.216 --> 00:07:02.150
+Organize shared terms into a PLA validate every
+
+00:07:02.150 --> 00:07:05.731
+input and the complete seven-segment decoder follows.

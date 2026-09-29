@@ -1,0 +1,1 @@
+We repeat the same design process for the other six segments. To keep the circuit organized, we arrange it as a programmable logic array, or PLA. The AND plane generates product terms from shared input rails. The OR plane selects which terms contribute to each segment. A term needed by several segments is generated once and shared.

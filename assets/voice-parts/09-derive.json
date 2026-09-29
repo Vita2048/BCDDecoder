@@ -1,0 +1,383 @@
+{
+  "id": "09-derive",
+  "duration": 26.664,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.394749,
+      "text": "Within"
+    },
+    {
+      "start": 0.407875,
+      "end": 0.60525,
+      "text": "each"
+    },
+    {
+      "start": 0.618416,
+      "end": 0.947374,
+      "text": "group"
+    },
+    {
+      "start": 1.236833,
+      "end": 1.486833,
+      "text": "keep"
+    },
+    {
+      "start": 1.565791,
+      "end": 1.828957,
+      "text": "only"
+    },
+    {
+      "start": 1.842125,
+      "end": 1.960541,
+      "text": "the"
+    },
+    {
+      "start": 1.973666,
+      "end": 2.302624,
+      "text": "bits"
+    },
+    {
+      "start": 2.315791,
+      "end": 2.473666,
+      "text": "that"
+    },
+    {
+      "start": 2.486833,
+      "end": 2.842083,
+      "text": "remain"
+    },
+    {
+      "start": 2.85525,
+      "end": 3.473666,
+      "text": "constant"
+    },
+    {
+      "start": 3.973666,
+      "end": 4.355249,
+      "text": "First"
+    },
+    {
+      "start": 4.592125,
+      "end": 4.828958,
+      "text": "these"
+    },
+    {
+      "start": 4.842125,
+      "end": 5.0,
+      "text": "eight"
+    },
+    {
+      "start": 5.013166,
+      "end": 5.539499,
+      "text": "cells"
+    },
+    {
+      "start": 5.710541,
+      "end": 5.921082,
+      "text": "all"
+    },
+    {
+      "start": 5.934208,
+      "end": 6.144749,
+      "text": "have"
+    },
+    {
+      "start": 6.25,
+      "end": 6.35525,
+      "text": "I"
+    },
+    {
+      "start": 6.368416,
+      "end": 6.736832,
+      "text": "one"
+    },
+    {
+      "start": 6.75,
+      "end": 7.052625,
+      "text": "equal"
+    },
+    {
+      "start": 7.065791,
+      "end": 7.157916,
+      "text": "to"
+    },
+    {
+      "start": 7.171041,
+      "end": 7.486832,
+      "text": "one"
+    },
+    {
+      "start": 7.881583,
+      "end": 7.986833,
+      "text": "so"
+    },
+    {
+      "start": 8.0,
+      "end": 8.184208,
+      "text": "their"
+    },
+    {
+      "start": 8.197375,
+      "end": 8.513166,
+      "text": "term"
+    },
+    {
+      "start": 8.631583,
+      "end": 8.723708,
+      "text": "is"
+    },
+    {
+      "start": 8.736833,
+      "end": 9.131583,
+      "text": "simply"
+    },
+    {
+      "start": 9.14475,
+      "end": 9.263166,
+      "text": "I"
+    },
+    {
+      "start": 9.276333,
+      "end": 9.592124,
+      "text": "one"
+    },
+    {
+      "start": 10.026333,
+      "end": 10.315791,
+      "text": "Another"
+    },
+    {
+      "start": 10.328958,
+      "end": 10.592124,
+      "text": "group"
+    },
+    {
+      "start": 10.684208,
+      "end": 10.894749,
+      "text": "has"
+    },
+    {
+      "start": 10.907875,
+      "end": 11.026291,
+      "text": "I"
+    },
+    {
+      "start": 11.039458,
+      "end": 11.486833,
+      "text": "three"
+    },
+    {
+      "start": 11.60525,
+      "end": 11.881583,
+      "text": "equal"
+    },
+    {
+      "start": 11.89475,
+      "end": 11.973708,
+      "text": "to"
+    },
+    {
+      "start": 11.986833,
+      "end": 12.276291,
+      "text": "one"
+    },
+    {
+      "start": 12.710541,
+      "end": 12.881582,
+      "text": "This"
+    },
+    {
+      "start": 12.89475,
+      "end": 13.381583,
+      "text": "four-cell"
+    },
+    {
+      "start": 13.39475,
+      "end": 13.710541,
+      "text": "group"
+    },
+    {
+      "start": 13.85525,
+      "end": 14.171041,
+      "text": "keeps"
+    },
+    {
+      "start": 14.184208,
+      "end": 14.289458,
+      "text": "I"
+    },
+    {
+      "start": 14.302625,
+      "end": 14.75,
+      "text": "two"
+    },
+    {
+      "start": 14.763166,
+      "end": 14.921041,
+      "text": "and"
+    },
+    {
+      "start": 14.934208,
+      "end": 15.065791,
+      "text": "I"
+    },
+    {
+      "start": 15.078958,
+      "end": 15.513166,
+      "text": "zero"
+    },
+    {
+      "start": 15.526333,
+      "end": 15.894749,
+      "text": "both"
+    },
+    {
+      "start": 16.026333,
+      "end": 16.289499,
+      "text": "equal"
+    },
+    {
+      "start": 16.302625,
+      "end": 16.368416,
+      "text": "to"
+    },
+    {
+      "start": 16.381583,
+      "end": 16.671041,
+      "text": "one"
+    },
+    {
+      "start": 17.171041,
+      "end": 17.618416,
+      "text": "Finally"
+    },
+    {
+      "start": 17.907875,
+      "end": 18.0,
+      "text": "the"
+    },
+    {
+      "start": 18.013166,
+      "end": 18.249999,
+      "text": "four"
+    },
+    {
+      "start": 18.263166,
+      "end": 18.657916,
+      "text": "corners"
+    },
+    {
+      "start": 18.671041,
+      "end": 18.921041,
+      "text": "wrap"
+    },
+    {
+      "start": 18.934208,
+      "end": 19.223666,
+      "text": "around"
+    },
+    {
+      "start": 19.236833,
+      "end": 19.302624,
+      "text": "the"
+    },
+    {
+      "start": 19.315791,
+      "end": 19.697374,
+      "text": "map"
+    },
+    {
+      "start": 19.973666,
+      "end": 20.065791,
+      "text": "and"
+    },
+    {
+      "start": 20.078958,
+      "end": 20.381583,
+      "text": "keep"
+    },
+    {
+      "start": 20.460541,
+      "end": 20.763166,
+      "text": "both"
+    },
+    {
+      "start": 20.776333,
+      "end": 20.842124,
+      "text": "of"
+    },
+    {
+      "start": 20.85525,
+      "end": 21.092083,
+      "text": "those"
+    },
+    {
+      "start": 21.10525,
+      "end": 21.434208,
+      "text": "bits"
+    },
+    {
+      "start": 21.447375,
+      "end": 21.552625,
+      "text": "at"
+    },
+    {
+      "start": 21.565791,
+      "end": 22.039457,
+      "text": "zero"
+    },
+    {
+      "start": 22.486833,
+      "end": 22.618416,
+      "text": "OR"
+    },
+    {
+      "start": 22.631583,
+      "end": 22.855249,
+      "text": "these"
+    },
+    {
+      "start": 22.868416,
+      "end": 23.157874,
+      "text": "four"
+    },
+    {
+      "start": 23.171041,
+      "end": 23.513166,
+      "text": "terms"
+    },
+    {
+      "start": 23.526333,
+      "end": 23.973708,
+      "text": "together"
+    },
+    {
+      "start": 23.986833,
+      "end": 24.131583,
+      "text": "to"
+    },
+    {
+      "start": 24.14475,
+      "end": 24.657916,
+      "text": "obtain"
+    },
+    {
+      "start": 24.789458,
+      "end": 24.921041,
+      "text": "our"
+    },
+    {
+      "start": 24.934208,
+      "end": 25.657874,
+      "text": "simplified"
+    },
+    {
+      "start": 25.671041,
+      "end": 26.263166,
+      "text": "expression"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

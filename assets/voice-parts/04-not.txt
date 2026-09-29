@@ -1,0 +1,1 @@
+A NOT gate reverses its input: zero becomes one, and one becomes zero. A bar over a variable means NOT. Having both a signal and its inverse lets us recognize either value of an input bit.

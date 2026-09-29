@@ -1,0 +1,1 @@
+Let's design the top segment, a. It lights for zero, two, three, five, six, seven, eight, and nine. It stays off for one and four. These requirements form a truth table. We could build a separate detector for every illuminated case, but a Karnaugh map helps us combine cases and simplify the circuit.

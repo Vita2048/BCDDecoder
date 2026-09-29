@@ -1,0 +1,1 @@
+Start by deciding when each segment must light. Write its truth table, simplify it with a Karnaugh map, and implement the result with AND, OR, and NOT. Organize shared terms into a PLA, validate every input, and the complete seven-segment decoder follows.

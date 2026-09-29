@@ -1,0 +1,243 @@
+{
+  "id": "05-interface",
+  "duration": 23.184,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 1.013166,
+      "text": "Binary-coded"
+    },
+    {
+      "start": 1.026333,
+      "end": 1.552666,
+      "text": "decimal"
+    },
+    {
+      "start": 1.828958,
+      "end": 1.947374,
+      "text": "or"
+    },
+    {
+      "start": 1.960541,
+      "end": 2.684207,
+      "text": "BCD"
+    },
+    {
+      "start": 3.10525,
+      "end": 3.618416,
+      "text": "represents"
+    },
+    {
+      "start": 3.631583,
+      "end": 4.013166,
+      "text": "one"
+    },
+    {
+      "start": 4.026333,
+      "end": 4.499999,
+      "text": "decimal"
+    },
+    {
+      "start": 4.513166,
+      "end": 4.934207,
+      "text": "digit"
+    },
+    {
+      "start": 5.052625,
+      "end": 5.2105,
+      "text": "with"
+    },
+    {
+      "start": 5.223666,
+      "end": 5.486832,
+      "text": "four"
+    },
+    {
+      "start": 5.5,
+      "end": 5.960541,
+      "text": "bits"
+    },
+    {
+      "start": 6.407875,
+      "end": 6.552625,
+      "text": "Their"
+    },
+    {
+      "start": 6.565791,
+      "end": 6.815791,
+      "text": "weights"
+    },
+    {
+      "start": 6.828958,
+      "end": 6.973708,
+      "text": "are"
+    },
+    {
+      "start": 7.157875,
+      "end": 7.434208,
+      "text": "eight"
+    },
+    {
+      "start": 7.697375,
+      "end": 8.197375,
+      "text": "four"
+    },
+    {
+      "start": 8.447375,
+      "end": 8.842125,
+      "text": "two"
+    },
+    {
+      "start": 9.052625,
+      "end": 9.184208,
+      "text": "and"
+    },
+    {
+      "start": 9.197375,
+      "end": 9.486833,
+      "text": "one"
+    },
+    {
+      "start": 9.921041,
+      "end": 10.986832,
+      "text": "Zero-one-zero-one"
+    },
+    {
+      "start": 11.078958,
+      "end": 11.631583,
+      "text": "therefore"
+    },
+    {
+      "start": 11.802625,
+      "end": 12.289458,
+      "text": "represents"
+    },
+    {
+      "start": 12.302625,
+      "end": 12.697375,
+      "text": "five"
+    },
+    {
+      "start": 13.131583,
+      "end": 13.315791,
+      "text": "Our"
+    },
+    {
+      "start": 13.328958,
+      "end": 13.684208,
+      "text": "seven"
+    },
+    {
+      "start": 13.697375,
+      "end": 14.10525,
+      "text": "outputs"
+    },
+    {
+      "start": 14.118416,
+      "end": 14.618416,
+      "text": "control"
+    },
+    {
+      "start": 14.631583,
+      "end": 15.184208,
+      "text": "segments"
+    },
+    {
+      "start": 15.276333,
+      "end": 15.328958,
+      "text": "a"
+    },
+    {
+      "start": 15.342125,
+      "end": 15.68425,
+      "text": "through"
+    },
+    {
+      "start": 15.697375,
+      "end": 16.052625,
+      "text": "g"
+    },
+    {
+      "start": 16.460541,
+      "end": 16.618416,
+      "text": "with"
+    },
+    {
+      "start": 16.631583,
+      "end": 16.947374,
+      "text": "one"
+    },
+    {
+      "start": 16.960541,
+      "end": 17.407916,
+      "text": "meaning"
+    },
+    {
+      "start": 17.552625,
+      "end": 18.302625,
+      "text": "illuminated"
+    },
+    {
+      "start": 18.736833,
+      "end": 18.921041,
+      "text": "Each"
+    },
+    {
+      "start": 18.934208,
+      "end": 19.355249,
+      "text": "segment"
+    },
+    {
+      "start": 19.513166,
+      "end": 19.710541,
+      "text": "has"
+    },
+    {
+      "start": 19.723666,
+      "end": 19.855249,
+      "text": "its"
+    },
+    {
+      "start": 19.947375,
+      "end": 20.236833,
+      "text": "own"
+    },
+    {
+      "start": 20.25,
+      "end": 20.710541,
+      "text": "Boolean"
+    },
+    {
+      "start": 20.723666,
+      "end": 21.263124,
+      "text": "function"
+    },
+    {
+      "start": 21.328958,
+      "end": 21.421083,
+      "text": "of"
+    },
+    {
+      "start": 21.434208,
+      "end": 21.513166,
+      "text": "the"
+    },
+    {
+      "start": 21.526333,
+      "end": 21.855291,
+      "text": "same"
+    },
+    {
+      "start": 21.868416,
+      "end": 22.171041,
+      "text": "four"
+    },
+    {
+      "start": 22.184208,
+      "end": 22.802624,
+      "text": "inputs"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

@@ -1,0 +1,263 @@
+{
+  "id": "02-and",
+  "duration": 19.392,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.144708,
+      "text": "A"
+    },
+    {
+      "start": 0.157875,
+      "end": 0.552625,
+      "text": "logic"
+    },
+    {
+      "start": 0.565791,
+      "end": 0.973666,
+      "text": "signal"
+    },
+    {
+      "start": 0.986833,
+      "end": 1.197374,
+      "text": "has"
+    },
+    {
+      "start": 1.210541,
+      "end": 1.434207,
+      "text": "two"
+    },
+    {
+      "start": 1.447375,
+      "end": 1.986833,
+      "text": "states"
+    },
+    {
+      "start": 2.289458,
+      "end": 2.789458,
+      "text": "zero"
+    },
+    {
+      "start": 2.960541,
+      "end": 3.092124,
+      "text": "and"
+    },
+    {
+      "start": 3.10525,
+      "end": 3.421041,
+      "text": "one"
+    },
+    {
+      "start": 3.85525,
+      "end": 3.921041,
+      "text": "An"
+    },
+    {
+      "start": 3.934208,
+      "end": 4.052624,
+      "text": "AND"
+    },
+    {
+      "start": 4.065791,
+      "end": 4.302624,
+      "text": "gate"
+    },
+    {
+      "start": 4.315791,
+      "end": 4.881582,
+      "text": "produces"
+    },
+    {
+      "start": 4.89475,
+      "end": 5.236875,
+      "text": "one"
+    },
+    {
+      "start": 5.315791,
+      "end": 5.710541,
+      "text": "only"
+    },
+    {
+      "start": 5.723666,
+      "end": 5.934207,
+      "text": "when"
+    },
+    {
+      "start": 5.947375,
+      "end": 6.328958,
+      "text": "both"
+    },
+    {
+      "start": 6.342125,
+      "end": 6.7895,
+      "text": "inputs"
+    },
+    {
+      "start": 6.802625,
+      "end": 6.921041,
+      "text": "are"
+    },
+    {
+      "start": 6.934208,
+      "end": 7.197374,
+      "text": "one"
+    },
+    {
+      "start": 7.631583,
+      "end": 7.776333,
+      "text": "If"
+    },
+    {
+      "start": 7.789458,
+      "end": 8.052624,
+      "text": "either"
+    },
+    {
+      "start": 8.065791,
+      "end": 8.499999,
+      "text": "input"
+    },
+    {
+      "start": 8.565791,
+      "end": 8.723666,
+      "text": "is"
+    },
+    {
+      "start": 8.736833,
+      "end": 9.197374,
+      "text": "zero"
+    },
+    {
+      "start": 9.434208,
+      "end": 9.552624,
+      "text": "the"
+    },
+    {
+      "start": 9.565791,
+      "end": 10.013166,
+      "text": "output"
+    },
+    {
+      "start": 10.14475,
+      "end": 10.263166,
+      "text": "is"
+    },
+    {
+      "start": 10.276333,
+      "end": 10.723708,
+      "text": "zero"
+    },
+    {
+      "start": 11.171041,
+      "end": 11.302624,
+      "text": "We"
+    },
+    {
+      "start": 11.315791,
+      "end": 11.552624,
+      "text": "write"
+    },
+    {
+      "start": 11.565791,
+      "end": 11.828957,
+      "text": "this"
+    },
+    {
+      "start": 11.842125,
+      "end": 12.013166,
+      "text": "as"
+    },
+    {
+      "start": 12.092125,
+      "end": 12.342125,
+      "text": "X"
+    },
+    {
+      "start": 12.35525,
+      "end": 12.473666,
+      "text": "AND"
+    },
+    {
+      "start": 12.486833,
+      "end": 12.894708,
+      "text": "Y"
+    },
+    {
+      "start": 13.197375,
+      "end": 13.39475,
+      "text": "or"
+    },
+    {
+      "start": 13.407875,
+      "end": 13.592083,
+      "text": "X"
+    },
+    {
+      "start": 13.60525,
+      "end": 13.763125,
+      "text": "dot"
+    },
+    {
+      "start": 13.776333,
+      "end": 14.105291,
+      "text": "Y"
+    },
+    {
+      "start": 14.539458,
+      "end": 14.934208,
+      "text": "Later"
+    },
+    {
+      "start": 15.223666,
+      "end": 15.315791,
+      "text": "AND"
+    },
+    {
+      "start": 15.328958,
+      "end": 15.605291,
+      "text": "gates"
+    },
+    {
+      "start": 15.618416,
+      "end": 15.789457,
+      "text": "will"
+    },
+    {
+      "start": 15.802625,
+      "end": 16.407875,
+      "text": "recognize"
+    },
+    {
+      "start": 16.421041,
+      "end": 16.986832,
+      "text": "particular"
+    },
+    {
+      "start": 17.0,
+      "end": 17.776333,
+      "text": "combinations"
+    },
+    {
+      "start": 17.789458,
+      "end": 17.947333,
+      "text": "of"
+    },
+    {
+      "start": 17.960541,
+      "end": 18.065791,
+      "text": "our"
+    },
+    {
+      "start": 18.078958,
+      "end": 18.499999,
+      "text": "input"
+    },
+    {
+      "start": 18.513166,
+      "end": 18.999999,
+      "text": "bits"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "08-grouping",
+  "duration": 23.856,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.249999,
+      "text": "We"
+    },
+    {
+      "start": 0.263166,
+      "end": 0.618416,
+      "text": "group"
+    },
+    {
+      "start": 0.631583,
+      "end": 0.947374,
+      "text": "ones"
+    },
+    {
+      "start": 0.960541,
+      "end": 1.171082,
+      "text": "into"
+    },
+    {
+      "start": 1.184208,
+      "end": 1.907874,
+      "text": "rectangles"
+    },
+    {
+      "start": 2.013166,
+      "end": 2.618416,
+      "text": "containing"
+    },
+    {
+      "start": 2.631583,
+      "end": 2.684208,
+      "text": "a"
+    },
+    {
+      "start": 2.697375,
+      "end": 3.578958,
+      "text": "power-of-two"
+    },
+    {
+      "start": 3.592125,
+      "end": 3.881583,
+      "text": "number"
+    },
+    {
+      "start": 3.89475,
+      "end": 3.973708,
+      "text": "of"
+    },
+    {
+      "start": 3.986833,
+      "end": 4.565791,
+      "text": "cells"
+    },
+    {
+      "start": 5.0,
+      "end": 5.289458,
+      "text": "Groups"
+    },
+    {
+      "start": 5.302625,
+      "end": 5.526291,
+      "text": "may"
+    },
+    {
+      "start": 5.539458,
+      "end": 6.210499,
+      "text": "overlap"
+    },
+    {
+      "start": 6.5,
+      "end": 6.64475,
+      "text": "and"
+    },
+    {
+      "start": 6.75,
+      "end": 7.210541,
+      "text": "opposite"
+    },
+    {
+      "start": 7.223666,
+      "end": 7.526291,
+      "text": "edges"
+    },
+    {
+      "start": 7.539458,
+      "end": 7.605249,
+      "text": "of"
+    },
+    {
+      "start": 7.618416,
+      "end": 7.684207,
+      "text": "the"
+    },
+    {
+      "start": 7.697375,
+      "end": 8.092125,
+      "text": "map"
+    },
+    {
+      "start": 8.210541,
+      "end": 8.302666,
+      "text": "are"
+    },
+    {
+      "start": 8.315791,
+      "end": 8.907916,
+      "text": "neighbors"
+    },
+    {
+      "start": 9.342125,
+      "end": 9.447375,
+      "text": "The"
+    },
+    {
+      "start": 9.460541,
+      "end": 9.684207,
+      "text": "X"
+    },
+    {
+      "start": 9.697375,
+      "end": 10.065791,
+      "text": "cells"
+    },
+    {
+      "start": 10.078958,
+      "end": 10.605291,
+      "text": "represent"
+    },
+    {
+      "start": 10.671041,
+      "end": 11.236832,
+      "text": "inputs"
+    },
+    {
+      "start": 11.302625,
+      "end": 11.684208,
+      "text": "ten"
+    },
+    {
+      "start": 11.763166,
+      "end": 11.986832,
+      "text": "through"
+    },
+    {
+      "start": 12.0,
+      "end": 12.723666,
+      "text": "fifteen"
+    },
+    {
+      "start": 13.065791,
+      "end": 13.210541,
+      "text": "which"
+    },
+    {
+      "start": 13.223666,
+      "end": 13.302624,
+      "text": "are"
+    },
+    {
+      "start": 13.315791,
+      "end": 13.644749,
+      "text": "not"
+    },
+    {
+      "start": 13.657875,
+      "end": 14.118416,
+      "text": "decimal"
+    },
+    {
+      "start": 14.131583,
+      "end": 14.710541,
+      "text": "BCD"
+    },
+    {
+      "start": 14.723666,
+      "end": 15.249999,
+      "text": "digits"
+    },
+    {
+      "start": 15.684208,
+      "end": 15.815791,
+      "text": "We"
+    },
+    {
+      "start": 15.828958,
+      "end": 15.999999,
+      "text": "may"
+    },
+    {
+      "start": 16.013166,
+      "end": 16.460541,
+      "text": "include"
+    },
+    {
+      "start": 16.473666,
+      "end": 16.710499,
+      "text": "these"
+    },
+    {
+      "start": 16.723666,
+      "end": 17.236832,
+      "text": "don't-care"
+    },
+    {
+      "start": 17.25,
+      "end": 17.657875,
+      "text": "cells"
+    },
+    {
+      "start": 17.671041,
+      "end": 17.789457,
+      "text": "when"
+    },
+    {
+      "start": 17.802625,
+      "end": 17.921041,
+      "text": "they"
+    },
+    {
+      "start": 17.934208,
+      "end": 18.171041,
+      "text": "help"
+    },
+    {
+      "start": 18.184208,
+      "end": 18.842083,
+      "text": "simplify"
+    },
+    {
+      "start": 18.85525,
+      "end": 18.947375,
+      "text": "the"
+    },
+    {
+      "start": 18.960541,
+      "end": 19.486874,
+      "text": "logic"
+    },
+    {
+      "start": 19.921041,
+      "end": 20.276291,
+      "text": "Later"
+    },
+    {
+      "start": 20.460541,
+      "end": 20.486874,
+      "text": "a"
+    },
+    {
+      "start": 20.5,
+      "end": 20.947375,
+      "text": "separate"
+    },
+    {
+      "start": 20.960541,
+      "end": 21.447374,
+      "text": "validity"
+    },
+    {
+      "start": 21.460541,
+      "end": 21.921082,
+      "text": "signal"
+    },
+    {
+      "start": 22.065791,
+      "end": 22.197374,
+      "text": "will"
+    },
+    {
+      "start": 22.210541,
+      "end": 22.618416,
+      "text": "blank"
+    },
+    {
+      "start": 22.631583,
+      "end": 22.855249,
+      "text": "those"
+    },
+    {
+      "start": 22.868416,
+      "end": 23.460541,
+      "text": "inputs"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

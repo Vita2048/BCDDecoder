@@ -1,0 +1,1 @@
+Binary-coded decimal, or BCD, represents one decimal digit with four bits. Their weights are eight, four, two, and one. Zero-one-zero-one therefore represents five. Our seven outputs control segments a through g, with one meaning illuminated. Each segment has its own Boolean function of the same four inputs.

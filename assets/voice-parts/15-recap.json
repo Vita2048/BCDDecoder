@@ -1,0 +1,218 @@
+{
+  "id": "15-recap",
+  "duration": 18.264,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.394708,
+      "text": "Start"
+    },
+    {
+      "start": 0.407875,
+      "end": 0.526291,
+      "text": "by"
+    },
+    {
+      "start": 0.539458,
+      "end": 1.131583,
+      "text": "deciding"
+    },
+    {
+      "start": 1.25,
+      "end": 1.39475,
+      "text": "when"
+    },
+    {
+      "start": 1.526333,
+      "end": 1.697374,
+      "text": "each"
+    },
+    {
+      "start": 1.710541,
+      "end": 2.236874,
+      "text": "segment"
+    },
+    {
+      "start": 2.25,
+      "end": 2.552625,
+      "text": "must"
+    },
+    {
+      "start": 2.565791,
+      "end": 2.921041,
+      "text": "light"
+    },
+    {
+      "start": 3.35525,
+      "end": 3.539458,
+      "text": "Write"
+    },
+    {
+      "start": 3.552625,
+      "end": 3.697375,
+      "text": "its"
+    },
+    {
+      "start": 3.710541,
+      "end": 4.078957,
+      "text": "truth"
+    },
+    {
+      "start": 4.092125,
+      "end": 4.460541,
+      "text": "table"
+    },
+    {
+      "start": 4.763166,
+      "end": 5.368416,
+      "text": "simplify"
+    },
+    {
+      "start": 5.381583,
+      "end": 5.473708,
+      "text": "it"
+    },
+    {
+      "start": 5.486833,
+      "end": 5.618416,
+      "text": "with"
+    },
+    {
+      "start": 5.631583,
+      "end": 5.684208,
+      "text": "a"
+    },
+    {
+      "start": 5.697375,
+      "end": 6.131583,
+      "text": "Karnaugh"
+    },
+    {
+      "start": 6.14475,
+      "end": 6.5395,
+      "text": "map"
+    },
+    {
+      "start": 6.842125,
+      "end": 6.921083,
+      "text": "and"
+    },
+    {
+      "start": 6.934208,
+      "end": 7.394749,
+      "text": "implement"
+    },
+    {
+      "start": 7.407875,
+      "end": 7.486833,
+      "text": "the"
+    },
+    {
+      "start": 7.5,
+      "end": 7.89475,
+      "text": "result"
+    },
+    {
+      "start": 7.907875,
+      "end": 8.092083,
+      "text": "with"
+    },
+    {
+      "start": 8.223666,
+      "end": 8.565791,
+      "text": "AND"
+    },
+    {
+      "start": 9.0,
+      "end": 9.328958,
+      "text": "OR"
+    },
+    {
+      "start": 9.552625,
+      "end": 9.671041,
+      "text": "and"
+    },
+    {
+      "start": 9.684208,
+      "end": 10.078958,
+      "text": "NOT"
+    },
+    {
+      "start": 10.513166,
+      "end": 11.039499,
+      "text": "Organize"
+    },
+    {
+      "start": 11.052625,
+      "end": 11.447375,
+      "text": "shared"
+    },
+    {
+      "start": 11.460541,
+      "end": 11.881582,
+      "text": "terms"
+    },
+    {
+      "start": 11.960541,
+      "end": 12.302666,
+      "text": "into"
+    },
+    {
+      "start": 12.315791,
+      "end": 12.407916,
+      "text": "a"
+    },
+    {
+      "start": 12.421041,
+      "end": 13.078916,
+      "text": "PLA"
+    },
+    {
+      "start": 13.473666,
+      "end": 13.973666,
+      "text": "validate"
+    },
+    {
+      "start": 14.131583,
+      "end": 14.434208,
+      "text": "every"
+    },
+    {
+      "start": 14.447375,
+      "end": 14.907916,
+      "text": "input"
+    },
+    {
+      "start": 15.25,
+      "end": 15.302625,
+      "text": "and"
+    },
+    {
+      "start": 15.315791,
+      "end": 15.394749,
+      "text": "the"
+    },
+    {
+      "start": 15.407875,
+      "end": 15.881541,
+      "text": "complete"
+    },
+    {
+      "start": 15.89475,
+      "end": 16.710541,
+      "text": "seven-segment"
+    },
+    {
+      "start": 16.763166,
+      "end": 17.263166,
+      "text": "decoder"
+    },
+    {
+      "start": 17.276333,
+      "end": 17.868458,
+      "text": "follows"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

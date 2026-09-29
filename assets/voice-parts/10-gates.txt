@@ -1,0 +1,1 @@
+Now translate the equation into hardware. The two single-variable terms are direct signals. The other two terms use AND gates, with inverted inputs where needed. An OR gate combines all four terms. This structure is called a sum of products: AND operations form the products, and OR combines them.

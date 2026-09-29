@@ -1,0 +1,1 @@
+In this video, we'll design a digital circuit that converts a four-bit BCD input into the seven signals needed to display a decimal digit. We'll start with simple logic gates, simplify one output with a Karnaugh map, and then watch the complete decoder operate.

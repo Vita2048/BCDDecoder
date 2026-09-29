@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "strict": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 16
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 428.06666666666666,
+    "samples": [
+      13.377,
+      40.131,
+      66.885,
+      93.64,
+      120.394,
+      147.148,
+      173.902,
+      200.656,
+      227.41,
+      254.165,
+      280.919,
+      307.673,
+      334.427,
+      361.181,
+      387.935,
+      414.69
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      13.377,
+      93.64,
+      200.656,
+      307.673,
+      414.69
+    ],
+    "checked": 23,
+    "passed": 23
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      "snapshots\\frame-00-at-13.4s.png",
+      "snapshots\\frame-01-at-93.6s.png",
+      "snapshots\\frame-02-at-200.7s.png",
+      "snapshots\\frame-03-at-307.7s.png",
+      "snapshots\\frame-04-at-414.7s.png"
+    ],
+    "times": [
+      13.377,
+      93.64,
+      200.656,
+      307.673,
+      414.69
+    ],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.84",
+    "latestVersion": "0.8.82",
+    "updateAvailable": false
+  }
+}

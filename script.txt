@@ -1,0 +1,175 @@
+01. From four bits to one digit
+
+In this video, we'll design a digital circuit that converts a four-bit BCD input into the seven signals needed to display a decimal digit.
+
+We'll start with simple logic gates, simplify one output with a Karnaugh map, and then watch the complete decoder operate.
+
+---
+
+02. AND: both inputs must be 1
+
+A logic signal has two states: zero and one. An AND gate produces one only when both inputs are one.
+
+If either input is zero, the output is zero.
+
+We write this as X AND Y, or X dot Y. Later, AND gates will recognize particular combinations of our input bits.
+
+---
+
+03. OR: at least one input is 1
+
+An OR gate produces one when either input is one, including when both are one.
+
+Only two zero inputs produce a zero output.
+
+We write OR using a plus sign. This is Boolean logic, so one OR one is still one.
+
+OR gates will combine the different conditions that light a segment.
+
+---
+
+04. NOT: reverse the signal
+
+A NOT gate reverses its input: zero becomes one, and one becomes zero.
+
+A bar over a variable means NOT.
+
+Having both a signal and its inverse lets us recognize either value of an input bit.
+
+---
+
+05. Define the input and the outputs
+
+Binary-coded decimal, or BCD, represents one decimal digit with four bits.
+
+Their weights are eight, four, two, and one. Zero-one-zero-one therefore represents five.
+
+Our seven outputs control segments a through g, with one meaning illuminated.
+
+Each segment has its own Boolean function of the same four inputs.
+
+---
+
+06. Design one output: segment a
+
+Let's design the top segment, a. It lights for zero, two, three, five, six, seven, eight, and nine.
+
+It stays off for one and four. These requirements form a truth table.
+
+We could build a separate detector for every illuminated case, but a Karnaugh map helps us combine cases and simplify the circuit.
+
+---
+
+07. Rearrange the truth table
+
+A Karnaugh map rearranges the truth table so neighboring cells differ in just one bit.
+
+Notice the order: zero-zero, zero-one, one-one, one-zero.
+
+The rows describe the upper two input bits; the columns describe the lower two.
+
+Every cell still represents exactly one input combination.
+
+---
+
+08. Group neighbors to simplify
+
+We group ones into rectangles containing a power-of-two number of cells.
+
+Groups may overlap, and opposite edges of the map are neighbors.
+
+The X cells represent inputs ten through fifteen, which are not decimal BCD digits.
+
+We may include these don't-care cells when they help simplify the logic.
+
+Later, a separate validity signal will blank those inputs.
+
+---
+
+09. Keep only the bits that stay constant
+
+Within each group, keep only the bits that remain constant.
+
+First, these eight cells all have I one equal to one, so their term is simply I one.
+
+Another group has I three equal to one.
+
+This four-cell group keeps I two and I zero both equal to one.
+
+Finally, the four corners wrap around the map and keep both of those bits at zero.
+
+OR these four terms together to obtain our simplified expression.
+
+---
+
+10. Turn the expression into a circuit
+
+Now translate the equation into hardware. The two single-variable terms are direct signals.
+
+The other two terms use AND gates, with inverted inputs where needed.
+
+An OR gate combines all four terms.
+
+This structure is called a sum of products: AND operations form the products, and OR combines them.
+
+---
+
+11. Share the logic in a regular array
+
+We repeat the same design process for the other six segments.
+
+To keep the circuit organized, we arrange it as a programmable logic array, or PLA.
+
+The AND plane generates product terms from shared input rails.
+
+The OR plane selects which terms contribute to each segment.
+
+A term needed by several segments is generated once and shared.
+
+---
+
+12. Blank every invalid BCD input
+
+Don’t-care cells simplified the internal logic, but they do not guarantee a blank display for invalid inputs.
+
+We add a validity signal. A code is valid when the eight’s bit is zero, or when both the four’s and two’s bits are zero.
+
+Every segment output is ANDed with this signal.
+
+Inputs ten through fifteen therefore turn every segment off.
+
+---
+
+13. Trace one input: 0101 → 5
+
+Let’s follow the input zero-one-zero-one: decimal five.
+
+The input rails provide each bit and its inverse.
+
+The AND plane evaluates every product term, and the OR plane combines the selected results.
+
+Outputs a, c, d, f, and g become one.
+
+The input is valid, so these five segments illuminate and form the digit five.
+
+---
+
+14. Exercise the complete decoder
+
+Now we can exercise the complete decoder.
+
+As the input counts from zero to nine, the same fixed logic produces each digit’s segment pattern. No circuit changes are needed.
+
+When the input reaches ten, VALID becomes zero and the display goes blank.
+
+The remaining invalid codes are blanked in the same way.
+
+---
+
+15. From a requirement to working logic
+
+Start by deciding when each segment must light.
+
+Write its truth table, simplify it with a Karnaugh map, and implement the result with AND, OR, and NOT.
+
+Organize shared terms into a PLA, validate every input, and the complete seven-segment decoder follows.

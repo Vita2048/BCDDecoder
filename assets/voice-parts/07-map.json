@@ -1,0 +1,228 @@
+{
+  "id": "07-map",
+  "duration": 20.448,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.171041,
+      "text": "A"
+    },
+    {
+      "start": 0.184208,
+      "end": 0.618416,
+      "text": "Karnaugh"
+    },
+    {
+      "start": 0.631583,
+      "end": 1.052624,
+      "text": "map"
+    },
+    {
+      "start": 1.157875,
+      "end": 1.85525,
+      "text": "rearranges"
+    },
+    {
+      "start": 1.868416,
+      "end": 1.960541,
+      "text": "the"
+    },
+    {
+      "start": 1.973666,
+      "end": 2.381541,
+      "text": "truth"
+    },
+    {
+      "start": 2.39475,
+      "end": 2.75,
+      "text": "table"
+    },
+    {
+      "start": 2.973666,
+      "end": 3.131541,
+      "text": "so"
+    },
+    {
+      "start": 3.14475,
+      "end": 3.631583,
+      "text": "neighboring"
+    },
+    {
+      "start": 3.64475,
+      "end": 3.960541,
+      "text": "cells"
+    },
+    {
+      "start": 3.973666,
+      "end": 4.421041,
+      "text": "differ"
+    },
+    {
+      "start": 4.60525,
+      "end": 4.697375,
+      "text": "in"
+    },
+    {
+      "start": 4.710541,
+      "end": 4.986874,
+      "text": "just"
+    },
+    {
+      "start": 5.0,
+      "end": 5.184208,
+      "text": "one"
+    },
+    {
+      "start": 5.197375,
+      "end": 5.5395,
+      "text": "bit"
+    },
+    {
+      "start": 5.973666,
+      "end": 6.289457,
+      "text": "Notice"
+    },
+    {
+      "start": 6.302625,
+      "end": 6.39475,
+      "text": "the"
+    },
+    {
+      "start": 6.407875,
+      "end": 6.802625,
+      "text": "order"
+    },
+    {
+      "start": 7.276333,
+      "end": 8.052666,
+      "text": "zero-zero"
+    },
+    {
+      "start": 8.342125,
+      "end": 9.0395,
+      "text": "zero-one"
+    },
+    {
+      "start": 9.381583,
+      "end": 10.013166,
+      "text": "one-one"
+    },
+    {
+      "start": 10.210541,
+      "end": 10.828957,
+      "text": "one-zero"
+    },
+    {
+      "start": 11.263166,
+      "end": 11.328957,
+      "text": "The"
+    },
+    {
+      "start": 11.342125,
+      "end": 11.631583,
+      "text": "rows"
+    },
+    {
+      "start": 11.64475,
+      "end": 12.14475,
+      "text": "describe"
+    },
+    {
+      "start": 12.157875,
+      "end": 12.289458,
+      "text": "the"
+    },
+    {
+      "start": 12.35525,
+      "end": 12.60525,
+      "text": "upper"
+    },
+    {
+      "start": 12.618416,
+      "end": 12.907874,
+      "text": "two"
+    },
+    {
+      "start": 12.921041,
+      "end": 13.368416,
+      "text": "input"
+    },
+    {
+      "start": 13.381583,
+      "end": 13.815791,
+      "text": "bits"
+    },
+    {
+      "start": 14.078958,
+      "end": 14.184208,
+      "text": "the"
+    },
+    {
+      "start": 14.197375,
+      "end": 14.631583,
+      "text": "columns"
+    },
+    {
+      "start": 14.64475,
+      "end": 15.14475,
+      "text": "describe"
+    },
+    {
+      "start": 15.157875,
+      "end": 15.25,
+      "text": "the"
+    },
+    {
+      "start": 15.263166,
+      "end": 15.539499,
+      "text": "lower"
+    },
+    {
+      "start": 15.552625,
+      "end": 15.89475,
+      "text": "two"
+    },
+    {
+      "start": 16.328958,
+      "end": 16.592124,
+      "text": "Every"
+    },
+    {
+      "start": 16.60525,
+      "end": 16.934208,
+      "text": "cell"
+    },
+    {
+      "start": 16.947375,
+      "end": 17.35525,
+      "text": "still"
+    },
+    {
+      "start": 17.368416,
+      "end": 17.934207,
+      "text": "represents"
+    },
+    {
+      "start": 17.947375,
+      "end": 18.64475,
+      "text": "exactly"
+    },
+    {
+      "start": 18.657875,
+      "end": 18.934208,
+      "text": "one"
+    },
+    {
+      "start": 18.947375,
+      "end": 19.368416,
+      "text": "input"
+    },
+    {
+      "start": 19.381583,
+      "end": 20.052624,
+      "text": "combination"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

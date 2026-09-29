@@ -1,0 +1,1 @@
+Now we can exercise the complete decoder. As the input counts from zero to nine, the same fixed logic produces each digit’s segment pattern. No circuit changes are needed. When the input reaches ten, VALID becomes zero and the display goes blank. The remaining invalid codes are blanked in the same way.

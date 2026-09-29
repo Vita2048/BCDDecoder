@@ -1,0 +1,228 @@
+{
+  "id": "01-introduction",
+  "duration": 16.92,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.210541,
+      "text": "In"
+    },
+    {
+      "start": 0.223666,
+      "end": 0.407874,
+      "text": "this"
+    },
+    {
+      "start": 0.421041,
+      "end": 0.894707,
+      "text": "video"
+    },
+    {
+      "start": 1.184208,
+      "end": 1.342083,
+      "text": "we'll"
+    },
+    {
+      "start": 1.35525,
+      "end": 1.763125,
+      "text": "design"
+    },
+    {
+      "start": 1.776333,
+      "end": 1.855291,
+      "text": "a"
+    },
+    {
+      "start": 1.868416,
+      "end": 2.276291,
+      "text": "digital"
+    },
+    {
+      "start": 2.289458,
+      "end": 2.723666,
+      "text": "circuit"
+    },
+    {
+      "start": 2.736833,
+      "end": 2.881583,
+      "text": "that"
+    },
+    {
+      "start": 2.89475,
+      "end": 3.460541,
+      "text": "converts"
+    },
+    {
+      "start": 3.486833,
+      "end": 3.539458,
+      "text": "a"
+    },
+    {
+      "start": 3.552625,
+      "end": 4.263166,
+      "text": "four-bit"
+    },
+    {
+      "start": 4.315791,
+      "end": 4.947374,
+      "text": "BCD"
+    },
+    {
+      "start": 4.960541,
+      "end": 5.381582,
+      "text": "input"
+    },
+    {
+      "start": 5.39475,
+      "end": 5.592125,
+      "text": "into"
+    },
+    {
+      "start": 5.60525,
+      "end": 5.7105,
+      "text": "the"
+    },
+    {
+      "start": 5.723666,
+      "end": 6.144707,
+      "text": "seven"
+    },
+    {
+      "start": 6.157875,
+      "end": 6.631541,
+      "text": "signals"
+    },
+    {
+      "start": 6.64475,
+      "end": 7.105291,
+      "text": "needed"
+    },
+    {
+      "start": 7.118416,
+      "end": 7.210541,
+      "text": "to"
+    },
+    {
+      "start": 7.223666,
+      "end": 7.894707,
+      "text": "display"
+    },
+    {
+      "start": 8.013166,
+      "end": 8.118416,
+      "text": "a"
+    },
+    {
+      "start": 8.131583,
+      "end": 8.578958,
+      "text": "decimal"
+    },
+    {
+      "start": 8.592125,
+      "end": 8.986875,
+      "text": "digit"
+    },
+    {
+      "start": 9.421041,
+      "end": 9.513166,
+      "text": "We'll"
+    },
+    {
+      "start": 9.526333,
+      "end": 9.828958,
+      "text": "start"
+    },
+    {
+      "start": 9.842125,
+      "end": 9.986875,
+      "text": "with"
+    },
+    {
+      "start": 10.0,
+      "end": 10.368416,
+      "text": "simple"
+    },
+    {
+      "start": 10.381583,
+      "end": 10.789458,
+      "text": "logic"
+    },
+    {
+      "start": 10.802625,
+      "end": 11.263166,
+      "text": "gates"
+    },
+    {
+      "start": 11.5,
+      "end": 12.092125,
+      "text": "simplify"
+    },
+    {
+      "start": 12.10525,
+      "end": 12.368416,
+      "text": "one"
+    },
+    {
+      "start": 12.381583,
+      "end": 12.855249,
+      "text": "output"
+    },
+    {
+      "start": 12.868416,
+      "end": 13.013166,
+      "text": "with"
+    },
+    {
+      "start": 13.026333,
+      "end": 13.078958,
+      "text": "a"
+    },
+    {
+      "start": 13.092125,
+      "end": 13.526333,
+      "text": "Karnaugh"
+    },
+    {
+      "start": 13.539458,
+      "end": 13.921041,
+      "text": "map"
+    },
+    {
+      "start": 14.25,
+      "end": 14.315791,
+      "text": "and"
+    },
+    {
+      "start": 14.328958,
+      "end": 14.513166,
+      "text": "then"
+    },
+    {
+      "start": 14.526333,
+      "end": 14.815791,
+      "text": "watch"
+    },
+    {
+      "start": 14.828958,
+      "end": 14.921083,
+      "text": "the"
+    },
+    {
+      "start": 14.934208,
+      "end": 15.407874,
+      "text": "complete"
+    },
+    {
+      "start": 15.473666,
+      "end": 15.986832,
+      "text": "decoder"
+    },
+    {
+      "start": 16.0,
+      "end": 16.539458,
+      "text": "operate"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}
