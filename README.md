@@ -1,4 +1,4 @@
-# BCDDecoder teaching preview
+# BCDDecoder
 
 An educational video explaining BCD to seven-segment decoding.
 
